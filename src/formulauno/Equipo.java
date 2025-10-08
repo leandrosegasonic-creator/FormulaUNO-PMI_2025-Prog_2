@@ -1,0 +1,45 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package formulauno;
+
+/**
+ *
+ * @author Estudiante
+ */
+public class Equipo extends Persona{
+
+
+//Constructores
+    public Equipo(String nombr_equip, String nombre, String apellido, Fecha fecnac, String nacionalidad) {
+        super(nombre, apellido, fecnac, nacionalidad);
+        this.nombr_equip = nombr_equip;
+    }
+    
+//Variables de instancia
+    private String nombr_equip;
+    private Piloto [] pilot_E = new Piloto [4];
+
+//Setters
+
+    public void setNombr_equip(String nombr_equip) {
+        this.nombr_equip = nombr_equip;
+    }
+
+    public void setPilot_E(Piloto[] pilot_E) {
+        this.pilot_E = pilot_E;
+    }
+
+//Getters
+
+    public String getNombr_equip() {
+        return nombr_equip;
+    }
+
+    public Piloto[] getPilot_E() {
+        return pilot_E;
+    }
+
+}
+
