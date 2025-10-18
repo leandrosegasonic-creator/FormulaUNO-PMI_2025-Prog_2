@@ -3,10 +3,6 @@ package formulauno;
 
 import java.util.InputMismatchException;
 
-/**
- *
- * @author Estudiante
- */
 public class Fecha {
     private int dia;
     private int mes;

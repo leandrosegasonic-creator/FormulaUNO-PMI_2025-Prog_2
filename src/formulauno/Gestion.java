@@ -1,14 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package formulauno;
 
-/**
- *
- * @author Estudiante
- * @param <G>
- */
 public interface Gestion<G>{
     /*El sistema debe permitir almacenar y operar sobre la información relacionada con pilotos,
 comisarios y equipos. Debe permitir las operaciones:
