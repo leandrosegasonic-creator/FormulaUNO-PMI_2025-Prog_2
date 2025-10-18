@@ -1,6 +1,8 @@
 
 package formulauno;
 
+import java.util.InputMismatchException;
+
 /**
  *
  * @author Estudiante
@@ -20,15 +22,15 @@ public class Fecha {
         this.año = año;
     }
     
-    public void Set_Dia(int dia){
+    public void Set_Dia(int dia) throws InputMismatchException{
         this.dia = dia;
     }
     
-    public void Set_Mes(int mes){
+    public void Set_Mes(int mes) throws InputMismatchException{
         this.mes = mes;
     }
     
-    public void Set_Año(int año){
+    public void Set_Año(int año) throws InputMismatchException{
         this.año = año;
     }
     

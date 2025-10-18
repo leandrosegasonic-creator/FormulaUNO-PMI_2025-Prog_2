@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package formulauno;
-
+import java.util.InputMismatchException;
 /**
  *
  * @author Estudiante
@@ -23,11 +23,11 @@ public class ComisarioDeportivo extends Persona{
         
     }
 
-    public void Set_Sancionesaplicadas(int sancionesaplicadas) {
+    public void Set_Sancionesaplicadas(int sancionesaplicadas) throws InputMismatchException{
         this.sancionesaplicadas = sancionesaplicadas;
     }
 
-    public void Set_Internacionalfia(boolean internacionalfia) {
+    public void Set_Internacionalfia(boolean internacionalfia) throws InputMismatchException{
         this.internacionalfia = internacionalfia;
     }
 

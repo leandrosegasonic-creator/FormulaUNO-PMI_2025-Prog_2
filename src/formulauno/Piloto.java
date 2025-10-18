@@ -4,6 +4,8 @@
  */
 package formulauno;
 
+import java.util.InputMismatchException;
+
 /**
  *
  * @author Estudiante
@@ -38,7 +40,7 @@ private boolean licencia_FIA;
 
 //Setters
 
-public void setNum_auto(int num_auto) {
+public void setNum_auto(int num_auto) throws InputMismatchException{
     this.num_auto = num_auto;
 }
 
@@ -46,31 +48,31 @@ public void setRol(String rol) {
     this.rol = rol;
 }
 
-public void setPuntos(int puntos) {
+public void setPuntos(int puntos) throws InputMismatchException{
     this.puntos = puntos;
 }
 
-public void setPodios(int podios) {
+public void setPodios(int podios) throws InputMismatchException{
     this.podios = podios;
 }
 
-public void setPole(int pole) {
+public void setPole(int pole) throws InputMismatchException{
     this.pole = pole;
 }
 
-public void setVueltas_rapidas(int vueltas_rapidas) {
+public void setVueltas_rapidas(int vueltas_rapidas) throws InputMismatchException{
     this.vueltas_rapidas = vueltas_rapidas;
 }
 
-public void setPenalizaciones(int penalizaciones) {
+public void setPenalizaciones(int penalizaciones) throws InputMismatchException{
     this.penalizaciones = penalizaciones;
 }
 
-public void setAbandonos(int abandonos) {
+public void setAbandonos(int abandonos) throws InputMismatchException{
     this.abandonos = abandonos;
 }
 
-public void setLicencia_FIA(Boolean licencia_FIA) {
+public void setLicencia_FIA(Boolean licencia_FIA) throws InputMismatchException{
     this.licencia_FIA = licencia_FIA;
 }
 
