@@ -1,5 +1,5 @@
 
-package formulauno;
+package Modelos;
 
 public interface Gestion<G>{
     /*El sistema debe permitir almacenar y operar sobre la información relacionada con pilotos,

@@ -1,6 +1,8 @@
 
-package formulauno;
+package Modelos;
 
+import Modelos.Fecha;
+import Modelos.Persona;
 import java.util.InputMismatchException;
 
 public class Piloto extends Persona{

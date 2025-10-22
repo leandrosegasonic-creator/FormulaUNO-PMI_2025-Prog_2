@@ -1,6 +1,8 @@
 
-package formulauno;
+package Modelos;
 
+import Modelos.Gestion;
+import Modelos.ComisarioDeportivo;
 import java.util.ArrayList;
 import java.util.List;
 

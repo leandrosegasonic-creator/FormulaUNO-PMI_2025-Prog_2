@@ -1,5 +1,5 @@
 
-package formulauno;
+package Modelos;
 
 import java.util.InputMismatchException;
 

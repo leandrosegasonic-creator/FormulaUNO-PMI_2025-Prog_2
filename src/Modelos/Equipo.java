@@ -1,5 +1,9 @@
 
-package formulauno;
+package Modelos;
+
+import Modelos.Piloto;
+import Modelos.Fecha;
+import Modelos.Persona;
 
 public class Equipo extends Persona{
 

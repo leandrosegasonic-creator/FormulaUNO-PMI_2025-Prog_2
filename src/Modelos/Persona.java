@@ -1,5 +1,5 @@
 
-package formulauno;
+package Modelos;
 
 public class Persona {
     private String nombre;
