@@ -1,13 +1,11 @@
 
 package Modelos;
 
-import Modelos.Fecha;
-import Modelos.Persona;
 import java.util.InputMismatchException;
 
 public class Piloto extends Persona{
    //Constructores
-    public Piloto(String nombre, String apellido, Fecha fecnac, String nacionalidad, int num_auto, String rol, int puntos, int podios, int pole, int vueltas_rapidas, int penalizaciones, int abandonos, Boolean licencia_FIA) {
+    public Piloto(String nombre, String apellido, Fecha fecnac, String nacionalidad, int num_auto, int rol, int puntos, int podios, int pole, int vueltas_rapidas, int penalizaciones, int abandonos, Boolean licencia_FIA, String[] equipo) {
         super(nombre, apellido, fecnac, nacionalidad);
         this.num_auto = num_auto;
         this.rol = rol;
@@ -18,12 +16,13 @@ public class Piloto extends Persona{
         this.penalizaciones = penalizaciones;
         this.abandonos = abandonos;
         this.licencia_FIA = licencia_FIA;
+        this.equipo = equipo;
 }
 
 
 //Variables de instancia
 private int num_auto;
-private String rol;
+private int rol; //1 titular, 2 reserva / 3 probador
 private int puntos;
 private int podios;
 private int pole;
@@ -31,14 +30,14 @@ private int vueltas_rapidas;
 private int penalizaciones;
 private int abandonos;
 private boolean licencia_FIA;
-
+private String[] equipo;
 //Setters
 
 public void setNum_auto(int num_auto) throws InputMismatchException{
     this.num_auto = num_auto;
 }
 
-public void setRol(String rol) {
+public void setRol(int rol) {
     this.rol = rol;
 }
 
@@ -70,13 +69,17 @@ public void setLicencia_FIA(Boolean licencia_FIA) throws InputMismatchException{
     this.licencia_FIA = licencia_FIA;
 }
 
+public void setEquipo(String[] equipo) {
+    this.equipo = equipo;
+}
+
 //Getters
 
 public int getNum_auto() {
     return num_auto;
     }
 
-public String getRol() {
+public int getRol() {
     return rol;
     }
 
@@ -106,6 +109,10 @@ public int getAbandonos() {
 
 public Boolean getLicencia_FIA() {
     return licencia_FIA;
+}
+
+public String[] getEquipo() {
+    return equipo;
 }
 
 }
