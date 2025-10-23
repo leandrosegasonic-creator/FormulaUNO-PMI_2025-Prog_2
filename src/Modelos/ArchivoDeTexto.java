@@ -21,8 +21,8 @@ public class ArchivoDeTexto {
     }
     
     
-    public void AbrirArchivo(boolean modo) throws IOException{
-        File Archivo = new File ("Pilotos.txt");//pueden cambiarle el nombre
+    public void AbrirArchivo(boolean modo, String nombrearchivo) throws IOException{
+        File Archivo = new File (nombrearchivo);//pueden cambiarle el nombre
         
         if(!Archivo.exists()){
             Archivo.createNewFile();
@@ -38,7 +38,8 @@ public class ArchivoDeTexto {
         }
     }
     
-    public void EscribirArchivo(String texto) throws IOException{
+    public void EscribirArchivo(String texto, boolean modo, String nombrearchivo) throws IOException{
+        AbrirArchivo(modo, nombrearchivo);
         if(bufferedescritura == null){
             throw new IOException("No se ha abierto el archivo para escribir");
         }
@@ -48,7 +49,8 @@ public class ArchivoDeTexto {
         }
     }
     
-    public String LeerArchivo(String texto) throws IOException{
+    public String LeerArchivo(String texto, boolean modo, String nombrearchivo) throws IOException{
+        AbrirArchivo(modo, nombrearchivo);
         if(bufferedlectura == null){
             throw new IOException("No se ha abierto el archivo para leer");
         }

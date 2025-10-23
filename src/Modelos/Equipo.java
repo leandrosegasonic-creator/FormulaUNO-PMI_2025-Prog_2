@@ -1,16 +1,12 @@
 
 package Modelos;
 
-import Modelos.Piloto;
-import Modelos.Fecha;
-import Modelos.Persona;
 
-public class Equipo extends Persona{
+public class Equipo{
 
 
 //Constructores
-    public Equipo(String nombr_equip, String nombre, String apellido, Fecha fecnac, String nacionalidad) {
-        super(nombre, apellido, fecnac, nacionalidad);
+    public Equipo(String nombr_equip) {
         this.nombr_equip = nombr_equip;
     }
     
