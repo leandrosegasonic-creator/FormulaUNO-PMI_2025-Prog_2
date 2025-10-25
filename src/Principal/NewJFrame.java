@@ -35,188 +35,295 @@ public class NewJFrame extends javax.swing.JFrame {
         SalirButton = new javax.swing.JButton();
         PanelContenedor = new javax.swing.JPanel();
         PanelInicio = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        TituloPrograma = new javax.swing.JLabel();
+        DescripciónInicio = new javax.swing.JLabel();
         PanelEditar = new javax.swing.JPanel();
         PanelBotonesEditar = new javax.swing.JPanel();
+        TituloEdicion = new javax.swing.JLabel();
         ModificarButton = new javax.swing.JButton();
-        jLabel20 = new javax.swing.JLabel();
         CargarButton = new javax.swing.JButton();
         EliminarButton = new javax.swing.JButton();
         PanelElegirCargar = new javax.swing.JPanel();
+        DescripciónCargar = new javax.swing.JLabel();
         PilotoCargarButton = new javax.swing.JButton();
         ComisarioDeportivoCargarButton = new javax.swing.JButton();
-        jLabel12 = new javax.swing.JLabel();
-        VolverButton2 = new javax.swing.JButton();
+        VolverButtonElegirCargar = new javax.swing.JButton();
         PanelPilotoCargar = new javax.swing.JPanel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jTextField5 = new javax.swing.JTextField();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jTextField4 = new javax.swing.JTextField();
-        jLabel7 = new javax.swing.JLabel();
-        VolverButton = new javax.swing.JButton();
-        jLabel9 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField1 = new javax.swing.JTextField();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
-        jButton2 = new javax.swing.JButton();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jList3 = new javax.swing.JList<>();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jList4 = new javax.swing.JList<>();
-        jTextField7 = new javax.swing.JTextField();
-        jTextField8 = new javax.swing.JTextField();
-        jTextField9 = new javax.swing.JTextField();
-        jTextField10 = new javax.swing.JTextField();
-        jTextField11 = new javax.swing.JTextField();
-        jTextField12 = new javax.swing.JTextField();
-        jTextField13 = new javax.swing.JTextField();
-        jCheckBox1 = new javax.swing.JCheckBox();
+        TextoPoles = new javax.swing.JLabel();
+        TextoAño = new javax.swing.JLabel();
+        TextoPuntos = new javax.swing.JLabel();
+        TextoNombre = new javax.swing.JLabel();
+        TextoDia = new javax.swing.JLabel();
+        TextoVueltasRápidas = new javax.swing.JLabel();
+        TextoRol = new javax.swing.JLabel();
+        TextoFecha = new javax.swing.JLabel();
+        TextoPodios = new javax.swing.JLabel();
+        TextoAbandonos = new javax.swing.JLabel();
+        TextoTituloIngresarPiloto = new javax.swing.JLabel();
+        TextoEquipo = new javax.swing.JLabel();
+        TextoMes = new javax.swing.JLabel();
+        TextoNumeroAuto = new javax.swing.JLabel();
+        TextoLicenciaFIA = new javax.swing.JLabel();
+        TextoPenalizaciones = new javax.swing.JLabel();
+        TextoApellido = new javax.swing.JLabel();
+        TextoCargarMesPiloto = new javax.swing.JTextField();
+        TextoCargarAñoPiloto = new javax.swing.JTextField();
+        TextoCargarApellidoPiloto = new javax.swing.JTextField();
+        TextoCargarNombrePiloto = new javax.swing.JTextField();
+        TextoCargarDiaPiloto = new javax.swing.JTextField();
+        ScrollPanelRolPiloto = new javax.swing.JScrollPane();
+        ListaCargarRolPiloto = new javax.swing.JList<>();
+        ScrollPanelEquipoPiloto = new javax.swing.JScrollPane();
+        ListaCargarEquipoPìloto = new javax.swing.JList<>();
+        TextoCargarNumeroAutoPiloto = new javax.swing.JTextField();
+        TextoCargarPuntosPiloto = new javax.swing.JTextField();
+        TextoCargarPodiosPiloto = new javax.swing.JTextField();
+        TextoCargarPolesPiloto = new javax.swing.JTextField();
+        TextoCargarPenalizacionesPiloto = new javax.swing.JTextField();
+        TextoCargarVueltasRapidasPiloto = new javax.swing.JTextField();
+        TextoCargarAbandonosPiloto = new javax.swing.JTextField();
+        CheckCargarLicenciaFIAPiloto = new javax.swing.JCheckBox();
+        AplicarButtonCargarPiloto = new javax.swing.JButton();
+        VolverButtonCargarPiloto = new javax.swing.JButton();
         PanelComisarioDeportivoCargar = new javax.swing.JPanel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jTextField6 = new javax.swing.JTextField();
-        jLabel25 = new javax.swing.JLabel();
-        jTextField14 = new javax.swing.JTextField();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jTextField15 = new javax.swing.JTextField();
-        jLabel28 = new javax.swing.JLabel();
-        jTextField16 = new javax.swing.JTextField();
-        jLabel29 = new javax.swing.JLabel();
-        jTextField17 = new javax.swing.JTextField();
-        jLabel50 = new javax.swing.JLabel();
-        jTextField29 = new javax.swing.JTextField();
-        jLabel43 = new javax.swing.JLabel();
-        jTextField33 = new javax.swing.JTextField();
-        jLabel45 = new javax.swing.JLabel();
-        VolverButton1 = new javax.swing.JButton();
-        jCheckBox2 = new javax.swing.JCheckBox();
-        jButton3 = new javax.swing.JButton();
+        TextoTituloCD = new javax.swing.JLabel();
+        TextoNombreCD = new javax.swing.JLabel();
+        TextoCargarApellidoTextoNombreCD = new javax.swing.JLabel();
+        TextoFechaCD = new javax.swing.JLabel();
+        TextoDiaCD = new javax.swing.JLabel();
+        TextoMesCD = new javax.swing.JLabel();
+        TextoAñoCD = new javax.swing.JLabel();
+        TextoNacionalidadCD = new javax.swing.JLabel();
+        TextoSancionesCD = new javax.swing.JLabel();
+        TextoInternacionalFIACD = new javax.swing.JLabel();
+        TextoCargarNombreCD = new javax.swing.JTextField();
+        TextoCargarApellidoCD = new javax.swing.JTextField();
+        TextoCargarDiaCD = new javax.swing.JTextField();
+        TextoCargarMesCD = new javax.swing.JTextField();
+        TextoCargarAñoCD = new javax.swing.JTextField();
+        TextoCargarNacionalidadCD = new javax.swing.JTextField();
+        TextoCargarSancionesCD = new javax.swing.JTextField();
+        CheckCargarInternacionalFIA = new javax.swing.JCheckBox();
+        VolverButtonCargarCD = new javax.swing.JButton();
+        AplicarButtonCargarCD = new javax.swing.JButton();
         PanelElegirModificar = new javax.swing.JPanel();
-        PilotoCargarButton1 = new javax.swing.JButton();
-        jLabel30 = new javax.swing.JLabel();
-        ComisarioDeportivoCargarButton1 = new javax.swing.JButton();
-        VolverButton3 = new javax.swing.JButton();
+        TextoModificarElegir = new javax.swing.JLabel();
+        PilotoModificarButton = new javax.swing.JButton();
+        CDModificarButton = new javax.swing.JButton();
+        VolverButtonElegirModificar = new javax.swing.JButton();
         PanelPilotoModificar = new javax.swing.JPanel();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jTextField18 = new javax.swing.JTextField();
-        jTextField19 = new javax.swing.JTextField();
-        jButton4 = new javax.swing.JButton();
-        jLabel34 = new javax.swing.JLabel();
-        jTextField20 = new javax.swing.JTextField();
-        jLabel35 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jList2 = new javax.swing.JList<>();
-        jLabel36 = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
-        jTextField21 = new javax.swing.JTextField();
-        jTextField24 = new javax.swing.JTextField();
-        jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
-        jTextField22 = new javax.swing.JTextField();
-        jLabel40 = new javax.swing.JLabel();
-        jTextField23 = new javax.swing.JTextField();
-        jTextField25 = new javax.swing.JTextField();
-        jLabel41 = new javax.swing.JLabel();
-        jTextField26 = new javax.swing.JTextField();
-        VolverButton4 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jLabel60 = new javax.swing.JLabel();
+        TextoDescripcionModificarPiloto = new javax.swing.JLabel();
+        TítuloModificarPiloto = new javax.swing.JLabel();
+        TextoNombreB = new javax.swing.JLabel();
+        TextoApellidoB = new javax.swing.JLabel();
+        TextoRolB = new javax.swing.JLabel();
+        TextoNumeroAutoB = new javax.swing.JLabel();
+        TextoPuntosB = new javax.swing.JLabel();
+        TextoVueltasB = new javax.swing.JLabel();
+        TextoPodiosB = new javax.swing.JLabel();
+        TextoPenalizacionesB = new javax.swing.JLabel();
+        TextoPolesB = new javax.swing.JLabel();
+        TextoAbandonosB = new javax.swing.JLabel();
+        TextoBuscarNombrePiloto = new javax.swing.JTextField();
+        TextoBuscarApellidoPiloto = new javax.swing.JTextField();
+        TextoModificarNumeroAutoPiloto = new javax.swing.JTextField();
+        TextoModificarPolesPiloto = new javax.swing.JTextField();
+        TextoModificarPuntosPiloto = new javax.swing.JTextField();
+        TextoModificarPodiosPiloto = new javax.swing.JTextField();
+        TextoModificarAbandonoPiloto = new javax.swing.JTextField();
+        TextoModificarPenalizacionesPiloto = new javax.swing.JTextField();
+        TextoModificarVueltasPiloto = new javax.swing.JTextField();
+        ScrollPanelRolB = new javax.swing.JScrollPane();
+        ListaModificarRolPiloto = new javax.swing.JList<>();
+        VolverButtonModificarPiloto = new javax.swing.JButton();
+        AplicarModificaciónPiloto = new javax.swing.JButton();
+        BuscarButtonPiloto = new javax.swing.JButton();
         PanelComisarioDeportivoModificar = new javax.swing.JPanel();
-        VolverButton5 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jTextField35 = new javax.swing.JTextField();
-        jLabel51 = new javax.swing.JLabel();
-        jLabel52 = new javax.swing.JLabel();
-        jLabel53 = new javax.swing.JLabel();
-        jLabel54 = new javax.swing.JLabel();
-        jLabel55 = new javax.swing.JLabel();
-        jTextField36 = new javax.swing.JTextField();
-        jTextField37 = new javax.swing.JTextField();
-        jButton5 = new javax.swing.JButton();
-        jCheckBox3 = new javax.swing.JCheckBox();
+        TextoSancionesb = new javax.swing.JLabel();
+        TextoIntFIAb = new javax.swing.JLabel();
+        TituloModCD = new javax.swing.JLabel();
+        TextoNombreb = new javax.swing.JLabel();
+        TextoApellidob = new javax.swing.JLabel();
+        TextoDescripcionModificarCD = new javax.swing.JLabel();
+        TextoModificarSancionesCD = new javax.swing.JTextField();
+        TextoNombreCDBuscar = new javax.swing.JTextField();
+        TextoApellidoCDBuscar = new javax.swing.JTextField();
+        VolverButtonCDModificar = new javax.swing.JButton();
+        AplicarButtonModificarCD = new javax.swing.JButton();
+        BuscarCDModificarButton = new javax.swing.JButton();
+        CheckModificarFIACD = new javax.swing.JCheckBox();
         PanelElegirEliminar = new javax.swing.JPanel();
-        PilotoCargarButton2 = new javax.swing.JButton();
-        ComisarioDeportivoCargarButton2 = new javax.swing.JButton();
-        jLabel42 = new javax.swing.JLabel();
-        VolverButton6 = new javax.swing.JButton();
+        TituloEliminarElegir = new javax.swing.JLabel();
+        ButtonPilotoEliminarElegir = new javax.swing.JButton();
+        ButtonCDEliminarElegir = new javax.swing.JButton();
+        VolverButtonElegirEliminar = new javax.swing.JButton();
         PanelEliminarPiloto = new javax.swing.JPanel();
-        jLabel56 = new javax.swing.JLabel();
-        jLabel57 = new javax.swing.JLabel();
-        jLabel58 = new javax.swing.JLabel();
-        jTextField30 = new javax.swing.JTextField();
-        jButton22 = new javax.swing.JButton();
-        jTextField31 = new javax.swing.JTextField();
-        jButton23 = new javax.swing.JButton();
-        jLabel59 = new javax.swing.JLabel();
-        VolverButton7 = new javax.swing.JButton();
+        TextoNombreC = new javax.swing.JLabel();
+        DescripciónEliminarPiloto = new javax.swing.JLabel();
+        TextoApellidoC = new javax.swing.JLabel();
+        TítuloEliminarPiloto = new javax.swing.JLabel();
+        TextoEliminarApellidoPiloto = new javax.swing.JTextField();
+        TextoEliminarNombrePiloto = new javax.swing.JTextField();
+        ButtonEliminarPiloto = new javax.swing.JButton();
+        BuscarButtonPilotoEliminar = new javax.swing.JButton();
+        VolverButtonEliminarPiloto = new javax.swing.JButton();
         PanelEliminarComisarioDeportivo = new javax.swing.JPanel();
-        jLabel61 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
-        jLabel63 = new javax.swing.JLabel();
-        jTextField32 = new javax.swing.JTextField();
-        jButton24 = new javax.swing.JButton();
-        jTextField34 = new javax.swing.JTextField();
-        jButton25 = new javax.swing.JButton();
-        jLabel64 = new javax.swing.JLabel();
-        VolverButton8 = new javax.swing.JButton();
+        TituloEliminarCD = new javax.swing.JLabel();
+        TextoNombrec = new javax.swing.JLabel();
+        DescripciónEliminarCD = new javax.swing.JLabel();
+        TextoApellidoc = new javax.swing.JLabel();
+        TextoEliminarApellidoCD = new javax.swing.JTextField();
+        TextoEliminarNombreCD = new javax.swing.JTextField();
+        BuscarButtonEliminarCD = new javax.swing.JButton();
+        EliminarButtonCD = new javax.swing.JButton();
+        VolverButtonEliminarCD = new javax.swing.JButton();
         PanelInfo = new javax.swing.JPanel();
         PanelBotonesInformación = new javax.swing.JPanel();
-        CDepButton = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        TeamButton = new javax.swing.JButton();
-        CDepButton1 = new javax.swing.JButton();
-        PanelEquipos = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        VolverButton9 = new javax.swing.JButton();
-        jLabel44 = new javax.swing.JLabel();
+        TítuloInformación = new javax.swing.JLabel();
+        ButtonInfoEquipos = new javax.swing.JButton();
+        ButtonInfoCD = new javax.swing.JButton();
+        ButtonInfoPilotos = new javax.swing.JButton();
+        ButtonInfoTablas = new javax.swing.JButton();
+        PanelMostrarEquipos = new javax.swing.JPanel();
+        ButtonEquipos = new javax.swing.JLabel();
+        ButtonSony = new javax.swing.JButton();
+        ButtonNintendo = new javax.swing.JButton();
+        ButtonBandai = new javax.swing.JButton();
+        ButtonSega = new javax.swing.JButton();
+        ButtonVocaloid = new javax.swing.JButton();
+        ButtonRetro = new javax.swing.JButton();
+        ButtonUbisoft = new javax.swing.JButton();
+        ButtonCapcom = new javax.swing.JButton();
+        ButtonCartoon = new javax.swing.JButton();
+        ButtonIndie = new javax.swing.JButton();
+        VolverButtonMostrarEquipos = new javax.swing.JButton();
         PanelSony = new javax.swing.JPanel();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jLabel46 = new javax.swing.JLabel();
-        VolverButton10 = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel47 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
-        jLabel49 = new javax.swing.JLabel();
+        TítuloSony = new javax.swing.JLabel();
+        Información_a = new javax.swing.JLabel();
+        Sony_Button_P_1 = new javax.swing.JButton();
+        Sony_Button_P_2 = new javax.swing.JButton();
+        Sony_Button_P_3 = new javax.swing.JButton();
+        Sony_Button_P_4 = new javax.swing.JButton();
+        VolverButtonSony = new javax.swing.JButton();
+        ScrollPanelSony = new javax.swing.JScrollPane();
+        ListaSony = new javax.swing.JTable();
+        PanelNintendo = new javax.swing.JPanel();
+        TítuloNintendo = new javax.swing.JLabel();
+        Información_b = new javax.swing.JLabel();
+        Nintendo_Button_P_1 = new javax.swing.JButton();
+        Nintendo_Button_P_2 = new javax.swing.JButton();
+        Nintendo_Button_P_3 = new javax.swing.JButton();
+        Nintendo_Button_P_4 = new javax.swing.JButton();
+        VolverButtonNintendo = new javax.swing.JButton();
+        ScrollPanelSony1 = new javax.swing.JScrollPane();
+        ListaSony1 = new javax.swing.JTable();
+        PanelSega = new javax.swing.JPanel();
+        TítuloSega = new javax.swing.JLabel();
+        Información_c = new javax.swing.JLabel();
+        Sega_Button_P_1 = new javax.swing.JButton();
+        Sega_Button_P_2 = new javax.swing.JButton();
+        Sega_Button_P_3 = new javax.swing.JButton();
+        Sega_Button_P_4 = new javax.swing.JButton();
+        VolverButtonSony2 = new javax.swing.JButton();
+        ScrollPanelSega = new javax.swing.JScrollPane();
+        ListaSega = new javax.swing.JTable();
+        PanelBandai = new javax.swing.JPanel();
+        TítuloSony2 = new javax.swing.JLabel();
+        Información_a3 = new javax.swing.JLabel();
+        Sony_Button_P_13 = new javax.swing.JButton();
+        Sony_Button_P_14 = new javax.swing.JButton();
+        Sony_Button_P_15 = new javax.swing.JButton();
+        Sony_Button_P_16 = new javax.swing.JButton();
+        VolverButtonSony3 = new javax.swing.JButton();
+        ScrollPanelSony3 = new javax.swing.JScrollPane();
+        ListaSony3 = new javax.swing.JTable();
+        PanelRetro = new javax.swing.JPanel();
+        TítuloSony3 = new javax.swing.JLabel();
+        Información_a4 = new javax.swing.JLabel();
+        Sony_Button_P_17 = new javax.swing.JButton();
+        Sony_Button_P_18 = new javax.swing.JButton();
+        Sony_Button_P_19 = new javax.swing.JButton();
+        Sony_Button_P_20 = new javax.swing.JButton();
+        VolverButtonSony4 = new javax.swing.JButton();
+        ScrollPanelSony4 = new javax.swing.JScrollPane();
+        ListaSony4 = new javax.swing.JTable();
+        PanelVocaloid = new javax.swing.JPanel();
+        TítuloSony4 = new javax.swing.JLabel();
+        Información_a5 = new javax.swing.JLabel();
+        Sony_Button_P_21 = new javax.swing.JButton();
+        Sony_Button_P_22 = new javax.swing.JButton();
+        Sony_Button_P_23 = new javax.swing.JButton();
+        Sony_Button_P_24 = new javax.swing.JButton();
+        VolverButtonSony5 = new javax.swing.JButton();
+        ScrollPanelSony5 = new javax.swing.JScrollPane();
+        ListaSony5 = new javax.swing.JTable();
+        PanelCapcom = new javax.swing.JPanel();
+        TítuloSony5 = new javax.swing.JLabel();
+        Información_a6 = new javax.swing.JLabel();
+        Sony_Button_P_25 = new javax.swing.JButton();
+        Sony_Button_P_26 = new javax.swing.JButton();
+        Sony_Button_P_27 = new javax.swing.JButton();
+        Sony_Button_P_28 = new javax.swing.JButton();
+        VolverButtonSony6 = new javax.swing.JButton();
+        ScrollPanelSony6 = new javax.swing.JScrollPane();
+        ListaSony6 = new javax.swing.JTable();
+        PanelUbisoft = new javax.swing.JPanel();
+        TítuloSony6 = new javax.swing.JLabel();
+        Información_a7 = new javax.swing.JLabel();
+        Sony_Button_P_29 = new javax.swing.JButton();
+        Sony_Button_P_30 = new javax.swing.JButton();
+        Sony_Button_P_31 = new javax.swing.JButton();
+        Sony_Button_P_32 = new javax.swing.JButton();
+        VolverButtonSony7 = new javax.swing.JButton();
+        ScrollPanelSony7 = new javax.swing.JScrollPane();
+        ListaSony7 = new javax.swing.JTable();
+        PanelIndie = new javax.swing.JPanel();
+        TítuloSony7 = new javax.swing.JLabel();
+        Información_a8 = new javax.swing.JLabel();
+        Sony_Button_P_33 = new javax.swing.JButton();
+        Sony_Button_P_34 = new javax.swing.JButton();
+        Sony_Button_P_35 = new javax.swing.JButton();
+        Sony_Button_P_36 = new javax.swing.JButton();
+        VolverButtonSony8 = new javax.swing.JButton();
+        ScrollPanelSony8 = new javax.swing.JScrollPane();
+        ListaSony8 = new javax.swing.JTable();
+        PanelCartoon = new javax.swing.JPanel();
+        TítuloSony8 = new javax.swing.JLabel();
+        Información_a9 = new javax.swing.JLabel();
+        Sony_Button_P_37 = new javax.swing.JButton();
+        Sony_Button_P_38 = new javax.swing.JButton();
+        Sony_Button_P_39 = new javax.swing.JButton();
+        Sony_Button_P_40 = new javax.swing.JButton();
+        VolverButtonSony9 = new javax.swing.JButton();
+        ScrollPanelSony9 = new javax.swing.JScrollPane();
+        ListaSony9 = new javax.swing.JTable();
+        PanelPilotos = new javax.swing.JPanel();
+        PanelTablasDePosición = new javax.swing.JPanel();
+        TítuloTablasPosición = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        VolverButtonTablas = new javax.swing.JButton();
+        PanelEquipoPuntos = new javax.swing.JPanel();
+        PanelPilotosPodios = new javax.swing.JPanel();
+        PanelMostrarComisariosDeportivos = new javax.swing.JPanel();
+        TextoInformaciónCD = new javax.swing.JLabel();
+        TituloCDMostrar = new javax.swing.JLabel();
+        ScrollPanelCD = new javax.swing.JScrollPane();
+        TablaMostrarCD = new javax.swing.JTable();
+        ButtonCD_1 = new javax.swing.JButton();
+        ButtonCD_2 = new javax.swing.JButton();
+        ButtonCD_3 = new javax.swing.JButton();
+        ButtonCD_4 = new javax.swing.JButton();
+        ButtonCD_5 = new javax.swing.JButton();
+        ButtonCD_6 = new javax.swing.JButton();
+        VolverButtonMostrarCD = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         PanelBotonesPermanentes.setBackground(new java.awt.Color(255, 102, 102));
         PanelBotonesPermanentes.setBorder(new javax.swing.border.MatteBorder(null));
         PanelBotonesPermanentes.setForeground(new java.awt.Color(0, 255, 255));
+        PanelBotonesPermanentes.setPreferredSize(new java.awt.Dimension(173, 702));
 
         InitButton.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         InitButton.setText("Inicio");
@@ -249,14 +356,13 @@ public class NewJFrame extends javax.swing.JFrame {
         PanelBotonesPermanentes.setLayout(PanelBotonesPermanentesLayout);
         PanelBotonesPermanentesLayout.setHorizontalGroup(
             PanelBotonesPermanentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelBotonesPermanentesLayout.createSequentialGroup()
-                .addContainerGap(17, Short.MAX_VALUE)
-                .addGroup(PanelBotonesPermanentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(InfoButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(EditButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(InitButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(SalirButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(26, 26, 26))
+            .addGroup(PanelBotonesPermanentesLayout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addGroup(PanelBotonesPermanentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(InitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(EditButton, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(InfoButton, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(SalirButton)))
         );
         PanelBotonesPermanentesLayout.setVerticalGroup(
             PanelBotonesPermanentesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -269,46 +375,35 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addComponent(InfoButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(SalirButton)
-                .addGap(28, 28, 28))
+                .addContainerGap())
         );
 
         PanelContenedor.setBorder(new javax.swing.border.MatteBorder(null));
         PanelContenedor.setLayout(new java.awt.CardLayout());
 
         PanelInicio.setBackground(new java.awt.Color(204, 204, 204));
+        PanelInicio.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelInicio.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
-        jLabel2.setText("FORMULA-1");
+        TituloPrograma.setFont(new java.awt.Font("Serif", 1, 48)); // NOI18N
+        TituloPrograma.setText("FORMULA-1");
+        PanelInicio.add(TituloPrograma, new org.netbeans.lib.awtextra.AbsoluteConstraints(336, 6, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel3.setText("¡Bienvenido al programa!");
-
-        javax.swing.GroupLayout PanelInicioLayout = new javax.swing.GroupLayout(PanelInicio);
-        PanelInicio.setLayout(PanelInicioLayout);
-        PanelInicioLayout.setHorizontalGroup(
-            PanelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelInicioLayout.createSequentialGroup()
-                .addContainerGap(403, Short.MAX_VALUE)
-                .addGroup(PanelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelInicioLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 277, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel2))
-                .addGap(264, 264, 264))
-        );
-        PanelInicioLayout.setVerticalGroup(
-            PanelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelInicioLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
-                .addContainerGap(582, Short.MAX_VALUE))
-        );
+        DescripciónInicio.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        DescripciónInicio.setText("¡Bienvenido al programa!");
+        PanelInicio.add(DescripciónInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(342, 74, 277, -1));
 
         PanelContenedor.add(PanelInicio, "card2");
 
+        PanelEditar.setMinimumSize(new java.awt.Dimension(959, 800));
+        PanelEditar.setPreferredSize(new java.awt.Dimension(959, 800));
         PanelEditar.setLayout(new java.awt.CardLayout());
+
+        PanelBotonesEditar.setMinimumSize(new java.awt.Dimension(959, 800));
+        PanelBotonesEditar.setPreferredSize(new java.awt.Dimension(959, 800));
+
+        TituloEdicion.setFont(new java.awt.Font("SimSun-ExtB", 1, 48)); // NOI18N
+        TituloEdicion.setText("Edicion");
 
         ModificarButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         ModificarButton.setText("Modificar");
@@ -317,9 +412,6 @@ public class NewJFrame extends javax.swing.JFrame {
                 ModificarButtonActionPerformed(evt);
             }
         });
-
-        jLabel20.setFont(new java.awt.Font("SimSun-ExtB", 1, 48)); // NOI18N
-        jLabel20.setText("Edicion");
 
         CargarButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         CargarButton.setText("Cargar");
@@ -341,1618 +433,1988 @@ public class NewJFrame extends javax.swing.JFrame {
         PanelBotonesEditar.setLayout(PanelBotonesEditarLayout);
         PanelBotonesEditarLayout.setHorizontalGroup(
             PanelBotonesEditarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelBotonesEditarLayout.createSequentialGroup()
-                .addGap(0, 492, Short.MAX_VALUE)
-                .addComponent(jLabel20)
-                .addGap(284, 284, 284))
+            .addGroup(PanelBotonesEditarLayout.createSequentialGroup()
+                .addGap(390, 390, 390)
+                .addComponent(TituloEdicion))
             .addGroup(PanelBotonesEditarLayout.createSequentialGroup()
                 .addGap(22, 22, 22)
-                .addGroup(PanelBotonesEditarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(EliminarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ModificarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(CargarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(CargarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(PanelBotonesEditarLayout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(ModificarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(PanelBotonesEditarLayout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(EliminarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         PanelBotonesEditarLayout.setVerticalGroup(
             PanelBotonesEditarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PanelBotonesEditarLayout.createSequentialGroup()
-                .addGap(11, 11, 11)
-                .addComponent(jLabel20)
-                .addGap(29, 29, 29)
+                .addGap(10, 10, 10)
+                .addComponent(TituloEdicion)
+                .addGap(30, 30, 30)
                 .addComponent(CargarButton)
                 .addGap(18, 18, 18)
                 .addComponent(ModificarButton)
                 .addGap(18, 18, 18)
-                .addComponent(EliminarButton)
-                .addContainerGap(467, Short.MAX_VALUE))
+                .addComponent(EliminarButton))
         );
 
         PanelEditar.add(PanelBotonesEditar, "card2");
 
-        PilotoCargarButton.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        PanelElegirCargar.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelElegirCargar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        DescripciónCargar.setFont(new java.awt.Font("SimSun-ExtB", 1, 36)); // NOI18N
+        DescripciónCargar.setText("Ingrese que quiere cargar ");
+        PanelElegirCargar.add(DescripciónCargar, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, -1, -1));
+
+        PilotoCargarButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         PilotoCargarButton.setText("Piloto");
         PilotoCargarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PilotoCargarButtonActionPerformed(evt);
             }
         });
+        PanelElegirCargar.add(PilotoCargarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 282, -1));
 
-        ComisarioDeportivoCargarButton.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        ComisarioDeportivoCargarButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         ComisarioDeportivoCargarButton.setText("Comisario deportivo");
         ComisarioDeportivoCargarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ComisarioDeportivoCargarButtonActionPerformed(evt);
             }
         });
+        PanelElegirCargar.add(ComisarioDeportivoCargarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 70, 282, -1));
 
-        jLabel12.setFont(new java.awt.Font("SimSun-ExtB", 1, 36)); // NOI18N
-        jLabel12.setText("Ingrese que quiere cargar ");
-
-        VolverButton2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton2.setText("Volver");
-        VolverButton2.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonElegirCargar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonElegirCargar.setText("Volver");
+        VolverButtonElegirCargar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton2ActionPerformed(evt);
+                VolverButtonElegirCargarActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout PanelElegirCargarLayout = new javax.swing.GroupLayout(PanelElegirCargar);
-        PanelElegirCargar.setLayout(PanelElegirCargarLayout);
-        PanelElegirCargarLayout.setHorizontalGroup(
-            PanelElegirCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelElegirCargarLayout.createSequentialGroup()
-                .addGap(44, 44, 44)
-                .addComponent(PilotoCargarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 302, Short.MAX_VALUE)
-                .addComponent(ComisarioDeportivoCargarButton, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(45, 45, 45))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelElegirCargarLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(VolverButton2)
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelElegirCargarLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel12)
-                .addGap(148, 148, 148))
-        );
-        PanelElegirCargarLayout.setVerticalGroup(
-            PanelElegirCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelElegirCargarLayout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addComponent(jLabel12)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PanelElegirCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(PilotoCargarButton)
-                    .addComponent(ComisarioDeportivoCargarButton))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 550, Short.MAX_VALUE)
-                .addComponent(VolverButton2)
-                .addContainerGap())
-        );
+        PanelElegirCargar.add(VolverButtonElegirCargar, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 760, -1, -1));
 
         PanelEditar.add(PanelElegirCargar, "card3");
 
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel18.setText("-Poles:");
+        PanelPilotoCargar.setMinimumSize(new java.awt.Dimension(959, 800));
+        PanelPilotoCargar.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelPilotoCargar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel17.setText("Año:");
+        TextoPoles.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPoles.setText("-Poles:");
+        PanelPilotoCargar.add(TextoPoles, new org.netbeans.lib.awtextra.AbsoluteConstraints(371, 261, -1, -1));
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel11.setText("-Puntos:");
+        TextoAño.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoAño.setText("Año:");
+        PanelPilotoCargar.add(TextoAño, new org.netbeans.lib.awtextra.AbsoluteConstraints(348, 102, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel8.setText("-Nombre:");
+        TextoPuntos.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPuntos.setText("-Puntos:");
+        PanelPilotoCargar.add(TextoPuntos, new org.netbeans.lib.awtextra.AbsoluteConstraints(371, 187, -1, -1));
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel15.setText("Dia:");
+        TextoNombre.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNombre.setText("-Nombre:");
+        PanelPilotoCargar.add(TextoNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 61, -1, -1));
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel16.setText("-Vueltas rápidas:");
+        TextoDia.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoDia.setText("Dia:");
+        PanelPilotoCargar.add(TextoDia, new org.netbeans.lib.awtextra.AbsoluteConstraints(191, 102, -1, -1));
 
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel13.setText("-Rol:");
+        TextoVueltasRápidas.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoVueltasRápidas.setText("-Vueltas rápidas:");
+        PanelPilotoCargar.add(TextoVueltasRápidas, new org.netbeans.lib.awtextra.AbsoluteConstraints(678, 187, -1, -1));
 
-        jTextField5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+        TextoRol.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoRol.setText("-Rol:");
+        PanelPilotoCargar.add(TextoRol, new org.netbeans.lib.awtextra.AbsoluteConstraints(219, 184, -1, -1));
+
+        TextoFecha.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoFecha.setText("-Fecha de nacimiento:");
+        PanelPilotoCargar.add(TextoFecha, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 102, -1, -1));
+
+        TextoPodios.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPodios.setText("-Podios:");
+        PanelPilotoCargar.add(TextoPodios, new org.netbeans.lib.awtextra.AbsoluteConstraints(371, 224, -1, -1));
+
+        TextoAbandonos.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoAbandonos.setText("-Abandonos:");
+        PanelPilotoCargar.add(TextoAbandonos, new org.netbeans.lib.awtextra.AbsoluteConstraints(677, 261, -1, -1));
+
+        TextoTituloIngresarPiloto.setFont(new java.awt.Font("SimSun-ExtB", 0, 33)); // NOI18N
+        TextoTituloIngresarPiloto.setText("Ingresando un piloto:");
+        PanelPilotoCargar.add(TextoTituloIngresarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
+
+        TextoEquipo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoEquipo.setText("-Equipo:");
+        PanelPilotoCargar.add(TextoEquipo, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 184, -1, -1));
+
+        TextoMes.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoMes.setText("Mes:");
+        PanelPilotoCargar.add(TextoMes, new org.netbeans.lib.awtextra.AbsoluteConstraints(266, 102, -1, -1));
+
+        TextoNumeroAuto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNumeroAuto.setText("-Número de auto:");
+        PanelPilotoCargar.add(TextoNumeroAuto, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 144, -1, -1));
+
+        TextoLicenciaFIA.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoLicenciaFIA.setText("-Licencia FIA:");
+        PanelPilotoCargar.add(TextoLicenciaFIA, new org.netbeans.lib.awtextra.AbsoluteConstraints(397, 142, -1, 29));
+
+        TextoPenalizaciones.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPenalizaciones.setText("-Penalizaciones:");
+        PanelPilotoCargar.add(TextoPenalizaciones, new org.netbeans.lib.awtextra.AbsoluteConstraints(678, 224, -1, -1));
+
+        TextoApellido.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoApellido.setText("-Apellido:");
+        PanelPilotoCargar.add(TextoApellido, new org.netbeans.lib.awtextra.AbsoluteConstraints(242, 61, -1, -1));
+
+        TextoCargarMesPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarMesPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField5ActionPerformed(evt);
+                TextoCargarMesPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarMesPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(309, 100, 33, 29));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel6.setText("-Fecha de nacimiento:");
-
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel14.setText("-Podios:");
-
-        jLabel22.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel22.setText("-Abandonos:");
-
-        jLabel4.setFont(new java.awt.Font("SimSun-ExtB", 0, 33)); // NOI18N
-        jLabel4.setText("Ingresando un piloto:");
-
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel10.setText("-Equipo:");
-
-        jTextField4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarAñoPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarAñoPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField4ActionPerformed(evt);
+                TextoCargarAñoPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarAñoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 100, 238, 29));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel7.setText("Mes:");
-
-        VolverButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton.setText("Volver");
-        VolverButton.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarApellidoPiloto.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        TextoCargarApellidoPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButtonActionPerformed(evt);
+                TextoCargarApellidoPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarApellidoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 58, 198, 29));
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel9.setText("-Número de auto:");
-
-        jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarNombrePiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarNombrePiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                TextoCargarNombrePilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarNombrePiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 59, 147, 29));
 
-        jTextField1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarDiaPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarDiaPiloto.setPreferredSize(new java.awt.Dimension(64, 30));
+        TextoCargarDiaPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                TextoCargarDiaPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarDiaPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 100, 33, 29));
 
-        jLabel21.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel21.setText("-Licencia FIA:");
-
-        jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel19.setText("-Penalizaciones:");
-
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel5.setText("-Apellido:");
-
-        jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField3.setPreferredSize(new java.awt.Dimension(64, 30));
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
-            }
-        });
-
-        jButton2.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton2.setText("Aplicar");
-
-        jList3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jList3.setModel(new javax.swing.AbstractListModel<String>() {
+        ListaCargarRolPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ListaCargarRolPiloto.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Titular", "Reserva", "Probador" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
-        jScrollPane3.setViewportView(jList3);
+        ScrollPanelRolPiloto.setViewportView(ListaCargarRolPiloto);
 
-        jList4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jList4.setModel(new javax.swing.AbstractListModel<String>() {
+        PanelPilotoCargar.add(ScrollPanelRolPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(262, 184, 103, 95));
+
+        ListaCargarEquipoPìloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ListaCargarEquipoPìloto.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Sega", "Bandai", "Retro", "Vocaloid", "Capcom", "Ubisoft", "Indie", "Cartoon" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
-        jScrollPane4.setViewportView(jList4);
+        ScrollPanelEquipoPiloto.setViewportView(ListaCargarEquipoPìloto);
 
-        jTextField7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField7.addActionListener(new java.awt.event.ActionListener() {
+        PanelPilotoCargar.add(ScrollPanelEquipoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(79, 184, 134, 105));
+
+        TextoCargarNumeroAutoPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarNumeroAutoPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField7ActionPerformed(evt);
+                TextoCargarNumeroAutoPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarNumeroAutoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(154, 141, 237, -1));
 
-        jTextField8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField8.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarPuntosPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarPuntosPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField8ActionPerformed(evt);
+                TextoCargarPuntosPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarPuntosPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(443, 184, 229, -1));
 
-        jTextField9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField9.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarPodiosPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarPodiosPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField9ActionPerformed(evt);
+                TextoCargarPodiosPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarPodiosPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(443, 221, 229, -1));
 
-        jTextField10.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField10.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarPolesPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarPolesPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField10ActionPerformed(evt);
+                TextoCargarPolesPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarPolesPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(442, 258, 229, -1));
 
-        jTextField11.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField11.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarPenalizacionesPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarPenalizacionesPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField11ActionPerformed(evt);
+                TextoCargarPenalizacionesPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarPenalizacionesPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(814, 221, 82, -1));
 
-        jTextField12.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField12.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarVueltasRapidasPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarVueltasRapidasPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField12ActionPerformed(evt);
+                TextoCargarVueltasRapidasPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarVueltasRapidasPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(815, 184, 82, -1));
 
-        jTextField13.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField13.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarAbandonosPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarAbandonosPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField13ActionPerformed(evt);
+                TextoCargarAbandonosPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(TextoCargarAbandonosPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(814, 258, 82, -1));
 
-        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+        CheckCargarLicenciaFIAPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox1ActionPerformed(evt);
+                CheckCargarLicenciaFIAPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoCargar.add(CheckCargarLicenciaFIAPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(505, 141, -1, 37));
 
-        javax.swing.GroupLayout PanelPilotoCargarLayout = new javax.swing.GroupLayout(PanelPilotoCargar);
-        PanelPilotoCargar.setLayout(PanelPilotoCargarLayout);
-        PanelPilotoCargarLayout.setHorizontalGroup(
-            PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                        .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                .addComponent(jLabel9)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField7)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel21)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox1)
-                                .addGap(373, 373, 373))
-                            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                .addComponent(jLabel10)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel13)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                        .addComponent(jLabel11)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField8)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel16)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelPilotoCargarLayout.createSequentialGroup()
-                                        .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                                .addComponent(jLabel18)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(jTextField10)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jLabel22)
-                                                .addGap(33, 33, 33)
-                                                .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                                .addComponent(jLabel14)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jTextField9)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(jLabel19)
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGap(1, 1, 1)))))
-                        .addGap(60, 60, 60))
-                    .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                        .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelPilotoCargarLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(VolverButton))
-                            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel4)
-                                    .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                        .addComponent(jLabel8)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel5)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                                        .addComponent(jLabel6)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel15)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel7)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel17)
-                                        .addGap(5, 5, 5)
-                                        .addComponent(jTextField4)
-                                        .addGap(68, 68, 68)))
-                                .addGap(255, 255, 255)))
-                        .addContainerGap())))
-            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                .addGap(131, 131, 131)
-                .addComponent(jButton2)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        PanelPilotoCargarLayout.setVerticalGroup(
-            PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4)
-                .addGap(18, 18, 18)
-                .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel6)
-                        .addComponent(jLabel15)
-                        .addComponent(jLabel7)
-                        .addComponent(jLabel17)
-                        .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jCheckBox1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel9)
-                        .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel13)
-                    .addGroup(PanelPilotoCargarLayout.createSequentialGroup()
-                        .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel11)
-                            .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel16)
-                            .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel14)
-                            .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel19)
-                            .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PanelPilotoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel18)
-                            .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel22)
-                            .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(jLabel10)
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 151, Short.MAX_VALUE)
-                .addComponent(jButton2)
-                .addGap(155, 155, 155)
-                .addComponent(VolverButton)
-                .addContainerGap())
-        );
+        AplicarButtonCargarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        AplicarButtonCargarPiloto.setText("Aplicar");
+        PanelPilotoCargar.add(AplicarButtonCargarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(131, 556, -1, -1));
+
+        VolverButtonCargarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonCargarPiloto.setText("Volver");
+        VolverButtonCargarPiloto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonCargarPilotoActionPerformed(evt);
+            }
+        });
+        PanelPilotoCargar.add(VolverButtonCargarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 760, -1, -1));
 
         PanelEditar.add(PanelPilotoCargar, "card4");
 
-        jLabel23.setFont(new java.awt.Font("SimSun-ExtB", 0, 33)); // NOI18N
-        jLabel23.setText("Ingresando un comisario deportivo:");
+        PanelComisarioDeportivoCargar.setMinimumSize(new java.awt.Dimension(959, 800));
+        PanelComisarioDeportivoCargar.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelComisarioDeportivoCargar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel24.setText("-Nombre:");
+        TextoTituloCD.setFont(new java.awt.Font("SimSun-ExtB", 0, 33)); // NOI18N
+        TextoTituloCD.setText("Ingresando un comisario deportivo:");
+        PanelComisarioDeportivoCargar.add(TextoTituloCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
 
-        jTextField6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+        TextoNombreCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNombreCD.setText("-Nombre:");
+        PanelComisarioDeportivoCargar.add(TextoNombreCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 61, -1, -1));
+
+        TextoCargarApellidoTextoNombreCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarApellidoTextoNombreCD.setText("-Apellido:");
+        PanelComisarioDeportivoCargar.add(TextoCargarApellidoTextoNombreCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(242, 61, -1, -1));
+
+        TextoFechaCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoFechaCD.setText("-Fecha de nacimiento:");
+        PanelComisarioDeportivoCargar.add(TextoFechaCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 102, -1, -1));
+
+        TextoDiaCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoDiaCD.setText("Dia:");
+        PanelComisarioDeportivoCargar.add(TextoDiaCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(191, 102, -1, -1));
+
+        TextoMesCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoMesCD.setText("Mes:");
+        PanelComisarioDeportivoCargar.add(TextoMesCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 100, -1, 30));
+
+        TextoAñoCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoAñoCD.setText("Año:");
+        PanelComisarioDeportivoCargar.add(TextoAñoCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 100, -1, 30));
+
+        TextoNacionalidadCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNacionalidadCD.setText("-Nacionalidad:");
+        PanelComisarioDeportivoCargar.add(TextoNacionalidadCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 138, -1, -1));
+
+        TextoSancionesCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoSancionesCD.setText("-Sanciones aplicadas:");
+        PanelComisarioDeportivoCargar.add(TextoSancionesCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 175, -1, -1));
+
+        TextoInternacionalFIACD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoInternacionalFIACD.setText("-Internacional FIA:");
+        PanelComisarioDeportivoCargar.add(TextoInternacionalFIACD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 209, -1, -1));
+
+        TextoCargarNombreCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarNombreCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField6ActionPerformed(evt);
+                TextoCargarNombreCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoCargar.add(TextoCargarNombreCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 59, 147, 29));
 
-        jLabel25.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel25.setText("-Apellido:");
-
-        jTextField14.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
-        jTextField14.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarApellidoCD.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        TextoCargarApellidoCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField14ActionPerformed(evt);
+                TextoCargarApellidoCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoCargar.add(TextoCargarApellidoCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 58, 198, 29));
 
-        jLabel26.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel26.setText("-Fecha de nacimiento:");
-
-        jLabel27.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel27.setText("Dia:");
-
-        jTextField15.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField15.setPreferredSize(new java.awt.Dimension(64, 30));
-        jTextField15.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarDiaCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarDiaCD.setPreferredSize(new java.awt.Dimension(64, 30));
+        TextoCargarDiaCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField15ActionPerformed(evt);
+                TextoCargarDiaCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoCargar.add(TextoCargarDiaCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 100, 40, 29));
 
-        jLabel28.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel28.setText("Mes:");
-
-        jTextField16.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField16.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarMesCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarMesCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField16ActionPerformed(evt);
+                TextoCargarMesCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoCargar.add(TextoCargarMesCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 100, 40, 29));
 
-        jLabel29.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel29.setText("Año:");
-
-        jTextField17.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField17.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarAñoCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarAñoCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField17ActionPerformed(evt);
+                TextoCargarAñoCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoCargar.add(TextoCargarAñoCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 100, 76, 29));
 
-        jLabel50.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel50.setText("-Nacionalidad:");
-
-        jTextField29.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-
-        jLabel43.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel43.setText("-Sanciones aplicadas:");
-
-        jTextField33.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-
-        jLabel45.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel45.setText("-Internacional FIA:");
-
-        VolverButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton1.setText("Volver");
-        VolverButton1.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarNacionalidadCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoCargarNacionalidadCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton1ActionPerformed(evt);
+                TextoCargarNacionalidadCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoCargar.add(TextoCargarNacionalidadCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(126, 135, 208, -1));
 
-        jCheckBox2.addActionListener(new java.awt.event.ActionListener() {
+        TextoCargarSancionesCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        PanelComisarioDeportivoCargar.add(TextoCargarSancionesCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 172, 90, -1));
+
+        CheckCargarInternacionalFIA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox2ActionPerformed(evt);
+                CheckCargarInternacionalFIAActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoCargar.add(CheckCargarInternacionalFIA, new org.netbeans.lib.awtextra.AbsoluteConstraints(155, 209, -1, 30));
 
-        jButton3.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton3.setText("Aplicar");
+        VolverButtonCargarCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonCargarCD.setText("Volver");
+        VolverButtonCargarCD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonCargarCDActionPerformed(evt);
+            }
+        });
+        PanelComisarioDeportivoCargar.add(VolverButtonCargarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 760, -1, -1));
 
-        javax.swing.GroupLayout PanelComisarioDeportivoCargarLayout = new javax.swing.GroupLayout(PanelComisarioDeportivoCargar);
-        PanelComisarioDeportivoCargar.setLayout(PanelComisarioDeportivoCargarLayout);
-        PanelComisarioDeportivoCargarLayout.setHorizontalGroup(
-            PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(VolverButton1))
-                    .addGroup(PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                        .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel23)
-                            .addGroup(PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                                .addComponent(jLabel24)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel25)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                                .addComponent(jLabel45)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox2))
-                            .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jButton3)
-                                .addGroup(PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                                    .addComponent(jLabel43)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jTextField33, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                                .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                                        .addComponent(jLabel26)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jLabel27)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel28)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                                        .addComponent(jLabel50)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField29, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel29)
-                                .addGap(5, 5, 5)
-                                .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(233, 233, 233)))
-                .addContainerGap())
-        );
-        PanelComisarioDeportivoCargarLayout.setVerticalGroup(
-            PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelComisarioDeportivoCargarLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel23)
-                .addGap(18, 18, 18)
-                .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel24)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel25)
-                    .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField15, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel26)
-                        .addComponent(jLabel27)
-                        .addComponent(jLabel28)
-                        .addComponent(jLabel29)
-                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel50)
-                    .addComponent(jTextField29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel43)
-                    .addComponent(jTextField33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PanelComisarioDeportivoCargarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel45)
-                    .addComponent(jCheckBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 203, Short.MAX_VALUE)
-                .addComponent(jButton3)
-                .addGap(153, 153, 153)
-                .addComponent(VolverButton1)
-                .addContainerGap())
-        );
+        AplicarButtonCargarCD.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        AplicarButtonCargarCD.setText("Aplicar");
+        PanelComisarioDeportivoCargar.add(AplicarButtonCargarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 410, -1, -1));
 
         PanelEditar.add(PanelComisarioDeportivoCargar, "card5");
 
-        PilotoCargarButton1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        PilotoCargarButton1.setText("Piloto");
-        PilotoCargarButton1.addActionListener(new java.awt.event.ActionListener() {
+        PanelElegirModificar.setMinimumSize(new java.awt.Dimension(957, 702));
+        PanelElegirModificar.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelElegirModificar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TextoModificarElegir.setFont(new java.awt.Font("SimSun-ExtB", 1, 36)); // NOI18N
+        TextoModificarElegir.setText("Ingrese que quiere modificar ");
+        PanelElegirModificar.add(TextoModificarElegir, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, -1, -1));
+
+        PilotoModificarButton.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        PilotoModificarButton.setText("Piloto");
+        PilotoModificarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PilotoCargarButton1ActionPerformed(evt);
+                PilotoModificarButtonActionPerformed(evt);
             }
         });
+        PanelElegirModificar.add(PilotoModificarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 61, 282, -1));
 
-        jLabel30.setFont(new java.awt.Font("SimSun-ExtB", 1, 36)); // NOI18N
-        jLabel30.setText("Ingrese que quiere modificar ");
-
-        ComisarioDeportivoCargarButton1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        ComisarioDeportivoCargarButton1.setText("Comisario deportivo");
-        ComisarioDeportivoCargarButton1.addActionListener(new java.awt.event.ActionListener() {
+        CDModificarButton.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        CDModificarButton.setText("Comisario deportivo");
+        CDModificarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ComisarioDeportivoCargarButton1ActionPerformed(evt);
+                CDModificarButtonActionPerformed(evt);
             }
         });
+        PanelElegirModificar.add(CDModificarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 61, 282, -1));
 
-        VolverButton3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton3.setText("Volver");
-        VolverButton3.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonElegirModificar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonElegirModificar.setText("Volver");
+        VolverButtonElegirModificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton3ActionPerformed(evt);
+                VolverButtonElegirModificarActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout PanelElegirModificarLayout = new javax.swing.GroupLayout(PanelElegirModificar);
-        PanelElegirModificar.setLayout(PanelElegirModificarLayout);
-        PanelElegirModificarLayout.setHorizontalGroup(
-            PanelElegirModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelElegirModificarLayout.createSequentialGroup()
-                .addGap(44, 44, 44)
-                .addComponent(PilotoCargarButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 302, Short.MAX_VALUE)
-                .addComponent(ComisarioDeportivoCargarButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(45, 45, 45))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelElegirModificarLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(VolverButton3)
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelElegirModificarLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel30)
-                .addGap(115, 115, 115))
-        );
-        PanelElegirModificarLayout.setVerticalGroup(
-            PanelElegirModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelElegirModificarLayout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addComponent(jLabel30)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PanelElegirModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(PilotoCargarButton1)
-                    .addComponent(ComisarioDeportivoCargarButton1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 550, Short.MAX_VALUE)
-                .addComponent(VolverButton3)
-                .addContainerGap())
-        );
+        PanelElegirModificar.add(VolverButtonElegirModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 760, -1, -1));
 
         PanelEditar.add(PanelElegirModificar, "card7");
 
-        jLabel31.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
-        jLabel31.setText("Modificando un piloto");
+        PanelPilotoModificar.setMinimumSize(new java.awt.Dimension(959, 800));
+        PanelPilotoModificar.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelPilotoModificar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel32.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel32.setText("-Nombre: ");
+        TextoDescripcionModificarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoDescripcionModificarPiloto.setText("Ingrese el nombre  y el apellido del piloto que desea modificar");
+        PanelPilotoModificar.add(TextoDescripcionModificarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
 
-        jLabel33.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel33.setText("-Apellido:");
+        TítuloModificarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloModificarPiloto.setText("Modificando un piloto");
+        PanelPilotoModificar.add(TítuloModificarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
 
-        jTextField18.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField18.addActionListener(new java.awt.event.ActionListener() {
+        TextoNombreB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNombreB.setText("-Nombre: ");
+        PanelPilotoModificar.add(TextoNombreB, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 98, -1, -1));
+
+        TextoApellidoB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoApellidoB.setText("-Apellido:");
+        PanelPilotoModificar.add(TextoApellidoB, new org.netbeans.lib.awtextra.AbsoluteConstraints(415, 98, 82, -1));
+
+        TextoRolB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoRolB.setText("-Rol:");
+        PanelPilotoModificar.add(TextoRolB, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 168, -1, -1));
+
+        TextoNumeroAutoB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNumeroAutoB.setText("-Número de auto:");
+        PanelPilotoModificar.add(TextoNumeroAutoB, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 135, -1, -1));
+
+        TextoPuntosB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPuntosB.setText("-Puntos:");
+        PanelPilotoModificar.add(TextoPuntosB, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 238, -1, -1));
+
+        TextoVueltasB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoVueltasB.setText("-Vueltas rápidas:");
+        PanelPilotoModificar.add(TextoVueltasB, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 240, 132, -1));
+
+        TextoPodiosB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPodiosB.setText("-Podios:");
+        PanelPilotoModificar.add(TextoPodiosB, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 205, -1, -1));
+
+        TextoPenalizacionesB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPenalizacionesB.setText("-Penalizaciones:");
+        PanelPilotoModificar.add(TextoPenalizacionesB, new org.netbeans.lib.awtextra.AbsoluteConstraints(294, 205, 125, -1));
+
+        TextoPolesB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoPolesB.setText("-Poles:");
+        PanelPilotoModificar.add(TextoPolesB, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 170, -1, -1));
+
+        TextoAbandonosB.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoAbandonosB.setText("-Abandonos:");
+        PanelPilotoModificar.add(TextoAbandonosB, new org.netbeans.lib.awtextra.AbsoluteConstraints(295, 170, 105, -1));
+
+        TextoBuscarNombrePiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoBuscarNombrePiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField18ActionPerformed(evt);
+                TextoBuscarNombrePilotoActionPerformed(evt);
             }
         });
+        PanelPilotoModificar.add(TextoBuscarNombrePiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(94, 96, 315, 29));
 
-        jTextField19.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField19.addActionListener(new java.awt.event.ActionListener() {
+        TextoBuscarApellidoPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoBuscarApellidoPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField19ActionPerformed(evt);
+                TextoBuscarApellidoPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoModificar.add(TextoBuscarApellidoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(503, 96, 260, 29));
 
-        jButton4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton4.setText("Buscar");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        TextoModificarNumeroAutoPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarNumeroAutoPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                TextoModificarNumeroAutoPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoModificar.add(TextoModificarNumeroAutoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(154, 133, 286, 29));
 
-        jLabel34.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel34.setText("-Número de auto:");
-
-        jTextField20.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField20.addActionListener(new java.awt.event.ActionListener() {
+        TextoModificarPolesPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarPolesPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField20ActionPerformed(evt);
+                TextoModificarPolesPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoModificar.add(TextoModificarPolesPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 168, 66, 29));
 
-        jLabel35.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel35.setText("-Rol:");
+        TextoModificarPuntosPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarPuntosPiloto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TextoModificarPuntosPilotoActionPerformed(evt);
+            }
+        });
+        PanelPilotoModificar.add(TextoModificarPuntosPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(217, 238, 65, 29));
 
-        jList2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jList2.setModel(new javax.swing.AbstractListModel<String>() {
+        TextoModificarPodiosPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarPodiosPiloto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TextoModificarPodiosPilotoActionPerformed(evt);
+            }
+        });
+        PanelPilotoModificar.add(TextoModificarPodiosPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 203, 66, 29));
+
+        TextoModificarAbandonoPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarAbandonoPiloto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TextoModificarAbandonoPilotoActionPerformed(evt);
+            }
+        });
+        PanelPilotoModificar.add(TextoModificarAbandonoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(434, 168, 70, 29));
+
+        TextoModificarPenalizacionesPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarPenalizacionesPiloto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TextoModificarPenalizacionesPilotoActionPerformed(evt);
+            }
+        });
+        PanelPilotoModificar.add(TextoModificarPenalizacionesPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(434, 203, 70, 29));
+
+        TextoModificarVueltasPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarVueltasPiloto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TextoModificarVueltasPilotoActionPerformed(evt);
+            }
+        });
+        PanelPilotoModificar.add(TextoModificarVueltasPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(434, 238, 70, 29));
+
+        ListaModificarRolPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ListaModificarRolPiloto.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Titular", "Reserva", "Probador" };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });
-        jScrollPane2.setViewportView(jList2);
+        ScrollPanelRolB.setViewportView(ListaModificarRolPiloto);
 
-        jLabel36.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel36.setText("-Puntos:");
+        PanelPilotoModificar.add(ScrollPanelRolB, new org.netbeans.lib.awtextra.AbsoluteConstraints(49, 168, -1, 95));
 
-        jLabel37.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel37.setText("-Vueltas rápidas:");
-
-        jTextField21.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField21.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonModificarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonModificarPiloto.setText("Volver");
+        VolverButtonModificarPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField21ActionPerformed(evt);
+                VolverButtonModificarPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoModificar.add(VolverButtonModificarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 760, -1, -1));
 
-        jTextField24.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField24.addActionListener(new java.awt.event.ActionListener() {
+        AplicarModificaciónPiloto.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        AplicarModificaciónPiloto.setText("Aplicar");
+        AplicarModificaciónPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField24ActionPerformed(evt);
+                AplicarModificaciónPilotoActionPerformed(evt);
             }
         });
+        PanelPilotoModificar.add(AplicarModificaciónPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(117, 374, -1, -1));
 
-        jLabel38.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel38.setText("-Podios:");
-
-        jLabel39.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel39.setText("-Penalizaciones:");
-
-        jTextField22.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField22.addActionListener(new java.awt.event.ActionListener() {
+        BuscarButtonPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        BuscarButtonPiloto.setText("Buscar");
+        BuscarButtonPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField22ActionPerformed(evt);
+                BuscarButtonPilotoActionPerformed(evt);
             }
         });
-
-        jLabel40.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel40.setText("-Poles:");
-
-        jTextField23.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField23ActionPerformed(evt);
-            }
-        });
-
-        jTextField25.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField25ActionPerformed(evt);
-            }
-        });
-
-        jLabel41.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel41.setText("-Abandonos:");
-
-        jTextField26.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField26ActionPerformed(evt);
-            }
-        });
-
-        VolverButton4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton4.setText("Volver");
-        VolverButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton4ActionPerformed(evt);
-            }
-        });
-
-        jButton13.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton13.setText("Aplicar");
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
-            }
-        });
-
-        jLabel60.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel60.setText("Ingrese el nombre  y el apellido del piloto que desea eliminar");
-
-        javax.swing.GroupLayout PanelPilotoModificarLayout = new javax.swing.GroupLayout(PanelPilotoModificar);
-        PanelPilotoModificar.setLayout(PanelPilotoModificarLayout);
-        PanelPilotoModificarLayout.setHorizontalGroup(
-            PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(VolverButton4))
-                            .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel31)
-                                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                        .addGap(111, 111, 111)
-                                        .addComponent(jButton13))
-                                    .addComponent(jLabel60)
-                                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                        .addComponent(jLabel34)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextField20)
-                                        .addGap(194, 194, 194)))
-                                .addGap(317, 317, 317))
-                            .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                .addComponent(jLabel35)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                        .addComponent(jLabel38)
-                                        .addGap(0, 0, Short.MAX_VALUE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelPilotoModificarLayout.createSequentialGroup()
-                                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                                .addComponent(jLabel36)
-                                                .addGap(7, 7, 7)
-                                                .addComponent(jTextField24))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PanelPilotoModificarLayout.createSequentialGroup()
-                                                .addComponent(jLabel40)
-                                                .addGap(19, 19, 19)
-                                                .addComponent(jTextField21))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, PanelPilotoModificarLayout.createSequentialGroup()
-                                                .addGap(72, 72, 72)
-                                                .addComponent(jTextField22)))
-                                        .addGap(12, 12, 12)))
-                                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                        .addGap(1, 1, 1)
-                                        .addComponent(jLabel41, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addGap(34, 34, 34))
-                                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                                                .addComponent(jLabel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addGap(7, 7, 7))
-                                            .addComponent(jLabel37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                        .addGap(8, 8, 8)))
-                                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField26)
-                                    .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(jTextField25, javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jTextField23, javax.swing.GroupLayout.Alignment.LEADING)))
-                                .addGap(453, 453, 453)))
-                        .addContainerGap())
-                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                        .addComponent(jLabel32)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField19)
-                        .addGap(32, 32, 32)
-                        .addComponent(jButton4)
-                        .addGap(26, 26, 26))))
-        );
-        PanelPilotoModificarLayout.setVerticalGroup(
-            PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                .addComponent(jLabel31)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel60)
-                .addGap(7, 7, 7)
-                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel32)
-                    .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel33)
-                    .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel34)
-                    .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel35)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel40))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel38))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel36)
-                            .addComponent(jTextField24, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(PanelPilotoModificarLayout.createSequentialGroup()
-                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel41)
-                            .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextField25, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel39))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PanelPilotoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel37)
-                            .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(107, 107, 107)
-                .addComponent(jButton13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 221, Short.MAX_VALUE)
-                .addComponent(VolverButton4)
-                .addContainerGap())
-        );
+        PanelPilotoModificar.add(BuscarButtonPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 90, -1, 40));
 
         PanelEditar.add(PanelPilotoModificar, "card6");
 
-        VolverButton5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton5.setText("Volver");
-        VolverButton5.addActionListener(new java.awt.event.ActionListener() {
+        PanelComisarioDeportivoModificar.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelComisarioDeportivoModificar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TextoSancionesb.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoSancionesb.setText("-Sanciones aplicadas:");
+        PanelComisarioDeportivoModificar.add(TextoSancionesb, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 201, -1));
+
+        TextoIntFIAb.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoIntFIAb.setText("-Internacional FIA:");
+        PanelComisarioDeportivoModificar.add(TextoIntFIAb, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 140, 176, -1));
+
+        TituloModCD.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TituloModCD.setText("Modificando un comisario deportivo:");
+        PanelComisarioDeportivoModificar.add(TituloModCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        TextoNombreb.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNombreb.setText("-Nombre:");
+        PanelComisarioDeportivoModificar.add(TextoNombreb, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
+
+        TextoApellidob.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoApellidob.setText("-Apellido:");
+        PanelComisarioDeportivoModificar.add(TextoApellidob, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 90, -1, 40));
+
+        TextoDescripcionModificarCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoDescripcionModificarCD.setText("Ingrese el nombre  y el apellido del C.D. que desea modificar");
+        PanelComisarioDeportivoModificar.add(TextoDescripcionModificarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+
+        TextoModificarSancionesCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoModificarSancionesCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton5ActionPerformed(evt);
+                TextoModificarSancionesCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoModificar.add(TextoModificarSancionesCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 97, 29));
 
-        jButton14.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton14.setText("Aplicar");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
+        TextoNombreCDBuscar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNombreCDBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
+                TextoNombreCDBuscarActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoModificar.add(TextoNombreCDBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 248, 29));
 
-        jTextField35.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField35.addActionListener(new java.awt.event.ActionListener() {
+        TextoApellidoCDBuscar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoApellidoCDBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField35ActionPerformed(evt);
+                TextoApellidoCDBuscarActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoModificar.add(TextoApellidoCDBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 100, 248, 30));
 
-        jLabel51.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel51.setText("-Sanciones aplicadas:");
-
-        jLabel52.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel52.setText("-Internacional FIA:");
-
-        jLabel53.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel53.setText("-Apellido del C.D. que desea modificar: ");
-
-        jLabel54.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel54.setText("-Nombre del C.D. que desea modificar: ");
-
-        jLabel55.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
-        jLabel55.setText("Modificando un comisario deportivo:");
-
-        jTextField36.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField36.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonCDModificar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonCDModificar.setText("Volver");
+        VolverButtonCDModificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField36ActionPerformed(evt);
+                VolverButtonCDModificarActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoModificar.add(VolverButtonCDModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 760, -1, -1));
 
-        jTextField37.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField37.addActionListener(new java.awt.event.ActionListener() {
+        AplicarButtonModificarCD.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        AplicarButtonModificarCD.setText("Aplicar");
+        AplicarButtonModificarCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField37ActionPerformed(evt);
+                AplicarButtonModificarCDActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoModificar.add(AplicarButtonModificarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 303, -1, -1));
 
-        jButton5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton5.setText("Buscar");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        BuscarCDModificarButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        BuscarCDModificarButton.setText("Buscar");
+        BuscarCDModificarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                BuscarCDModificarButtonActionPerformed(evt);
             }
         });
+        PanelComisarioDeportivoModificar.add(BuscarCDModificarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 80, -1, -1));
 
-        jCheckBox3.addActionListener(new java.awt.event.ActionListener() {
+        CheckModificarFIACD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox3ActionPerformed(evt);
+                CheckModificarFIACDActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout PanelComisarioDeportivoModificarLayout = new javax.swing.GroupLayout(PanelComisarioDeportivoModificar);
-        PanelComisarioDeportivoModificar.setLayout(PanelComisarioDeportivoModificarLayout);
-        PanelComisarioDeportivoModificarLayout.setHorizontalGroup(
-            PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(VolverButton5))
-                    .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                        .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                                .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel53, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel54, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextField37, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField36, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton5))
-                            .addComponent(jLabel55)
-                            .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                                .addComponent(jLabel51, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField35)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel52, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jCheckBox3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGap(243, 243, 243)))
-                        .addGap(150, 150, 150)))
-                .addContainerGap())
-            .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                .addGap(123, 123, 123)
-                .addComponent(jButton14)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        PanelComisarioDeportivoModificarLayout.setVerticalGroup(
-            PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                .addComponent(jLabel55)
-                .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel54)
-                            .addComponent(jTextField36, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(4, 4, 4)
-                        .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel53)
-                            .addComponent(jTextField37, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(PanelComisarioDeportivoModificarLayout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addComponent(jButton5)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelComisarioDeportivoModificarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jTextField35, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel52))
-                    .addComponent(jLabel51)
-                    .addComponent(jCheckBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(154, 154, 154)
-                .addComponent(jButton14)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 292, Short.MAX_VALUE)
-                .addComponent(VolverButton5)
-                .addContainerGap())
-        );
+        PanelComisarioDeportivoModificar.add(CheckModificarFIACD, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 140, 30, 30));
 
         PanelEditar.add(PanelComisarioDeportivoModificar, "card8");
 
-        PilotoCargarButton2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        PilotoCargarButton2.setText("Piloto");
-        PilotoCargarButton2.addActionListener(new java.awt.event.ActionListener() {
+        PanelElegirEliminar.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelElegirEliminar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TituloEliminarElegir.setFont(new java.awt.Font("SimSun-ExtB", 1, 36)); // NOI18N
+        TituloEliminarElegir.setText("Ingrese que quiere eliminar ");
+        PanelElegirEliminar.add(TituloEliminarElegir, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, -1, -1));
+
+        ButtonPilotoEliminarElegir.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        ButtonPilotoEliminarElegir.setText("Piloto");
+        ButtonPilotoEliminarElegir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PilotoCargarButton2ActionPerformed(evt);
+                ButtonPilotoEliminarElegirActionPerformed(evt);
             }
         });
+        PanelElegirEliminar.add(ButtonPilotoEliminarElegir, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 282, -1));
 
-        ComisarioDeportivoCargarButton2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        ComisarioDeportivoCargarButton2.setText("Comisario deportivo");
-        ComisarioDeportivoCargarButton2.addActionListener(new java.awt.event.ActionListener() {
+        ButtonCDEliminarElegir.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        ButtonCDEliminarElegir.setText("Comisario deportivo");
+        ButtonCDEliminarElegir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ComisarioDeportivoCargarButton2ActionPerformed(evt);
+                ButtonCDEliminarElegirActionPerformed(evt);
             }
         });
+        PanelElegirEliminar.add(ButtonCDEliminarElegir, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 60, 282, -1));
 
-        jLabel42.setFont(new java.awt.Font("SimSun-ExtB", 1, 36)); // NOI18N
-        jLabel42.setText("Ingrese que quiere eliminar ");
-
-        VolverButton6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton6.setText("Volver");
-        VolverButton6.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonElegirEliminar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonElegirEliminar.setText("Volver");
+        VolverButtonElegirEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton6ActionPerformed(evt);
+                VolverButtonElegirEliminarActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout PanelElegirEliminarLayout = new javax.swing.GroupLayout(PanelElegirEliminar);
-        PanelElegirEliminar.setLayout(PanelElegirEliminarLayout);
-        PanelElegirEliminarLayout.setHorizontalGroup(
-            PanelElegirEliminarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelElegirEliminarLayout.createSequentialGroup()
-                .addGap(44, 44, 44)
-                .addComponent(PilotoCargarButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 302, Short.MAX_VALUE)
-                .addComponent(ComisarioDeportivoCargarButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(45, 45, 45))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelElegirEliminarLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(VolverButton6)
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelElegirEliminarLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel42)
-                .addGap(130, 130, 130))
-        );
-        PanelElegirEliminarLayout.setVerticalGroup(
-            PanelElegirEliminarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelElegirEliminarLayout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addComponent(jLabel42)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(PanelElegirEliminarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(PilotoCargarButton2)
-                    .addComponent(ComisarioDeportivoCargarButton2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 550, Short.MAX_VALUE)
-                .addComponent(VolverButton6)
-                .addContainerGap())
-        );
+        PanelElegirEliminar.add(VolverButtonElegirEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 760, -1, -1));
 
         PanelEditar.add(PanelElegirEliminar, "card9");
 
-        jLabel56.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel56.setText("-Nombre:");
+        PanelEliminarPiloto.setMinimumSize(new java.awt.Dimension(959, 800));
+        PanelEliminarPiloto.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelEliminarPiloto.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel57.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel57.setText("Ingrese el nombre  y el apellido del piloto que desea eliminar");
+        TextoNombreC.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNombreC.setText("-Nombre:");
+        PanelEliminarPiloto.add(TextoNombreC, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 103, -1, -1));
 
-        jLabel58.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel58.setText("-Apellido:");
+        DescripciónEliminarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        DescripciónEliminarPiloto.setText("Ingrese el nombre  y el apellido del piloto que desea eliminar");
+        PanelEliminarPiloto.add(DescripciónEliminarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 57, -1, -1));
 
-        jTextField30.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField30.addActionListener(new java.awt.event.ActionListener() {
+        TextoApellidoC.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoApellidoC.setText("-Apellido:");
+        PanelEliminarPiloto.add(TextoApellidoC, new org.netbeans.lib.awtextra.AbsoluteConstraints(292, 103, -1, -1));
+
+        TítuloEliminarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloEliminarPiloto.setText("Eliminando piloto");
+        PanelEliminarPiloto.add(TítuloEliminarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
+
+        TextoEliminarApellidoPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoEliminarApellidoPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField30ActionPerformed(evt);
+                TextoEliminarApellidoPilotoActionPerformed(evt);
             }
         });
+        PanelEliminarPiloto.add(TextoEliminarApellidoPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(375, 100, 185, -1));
 
-        jButton22.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton22.setText("Buscar en el programa");
+        TextoEliminarNombrePiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        PanelEliminarPiloto.add(TextoEliminarNombrePiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 100, 197, -1));
 
-        jTextField31.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonEliminarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonEliminarPiloto.setText("Eliminar");
+        PanelEliminarPiloto.add(ButtonEliminarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 503, -1, -1));
 
-        jButton23.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton23.setText("Eliminar");
+        BuscarButtonPilotoEliminar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        BuscarButtonPilotoEliminar.setText("Buscar en el programa");
+        PanelEliminarPiloto.add(BuscarButtonPilotoEliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(578, 100, -1, -1));
 
-        jLabel59.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
-        jLabel59.setText("Eliminando comisario deportivo");
-
-        VolverButton7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton7.setText("Volver");
-        VolverButton7.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonEliminarPiloto.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonEliminarPiloto.setText("Volver");
+        VolverButtonEliminarPiloto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton7ActionPerformed(evt);
+                VolverButtonEliminarPilotoActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout PanelEliminarPilotoLayout = new javax.swing.GroupLayout(PanelEliminarPiloto);
-        PanelEliminarPiloto.setLayout(PanelEliminarPilotoLayout);
-        PanelEliminarPilotoLayout.setHorizontalGroup(
-            PanelEliminarPilotoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelEliminarPilotoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelEliminarPilotoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelEliminarPilotoLayout.createSequentialGroup()
-                        .addComponent(jLabel56)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField31, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel58)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField30, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton22)
-                        .addContainerGap(170, Short.MAX_VALUE))
-                    .addGroup(PanelEliminarPilotoLayout.createSequentialGroup()
-                        .addGroup(PanelEliminarPilotoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel57)
-                            .addComponent(jLabel59))
-                        .addGap(0, 0, Short.MAX_VALUE))))
-            .addGroup(PanelEliminarPilotoLayout.createSequentialGroup()
-                .addGap(343, 343, 343)
-                .addComponent(jButton23)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelEliminarPilotoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(VolverButton7)
-                .addContainerGap())
-        );
-        PanelEliminarPilotoLayout.setVerticalGroup(
-            PanelEliminarPilotoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelEliminarPilotoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel59)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel57)
-                .addGap(18, 18, 18)
-                .addGroup(PanelEliminarPilotoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel56)
-                    .addComponent(jTextField31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel58)
-                    .addComponent(jTextField30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton22))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 255, Short.MAX_VALUE)
-                .addComponent(jButton23)
-                .addGap(231, 231, 231)
-                .addComponent(VolverButton7)
-                .addContainerGap())
-        );
+        PanelEliminarPiloto.add(VolverButtonEliminarPiloto, new org.netbeans.lib.awtextra.AbsoluteConstraints(871, 766, -1, -1));
 
         PanelEditar.add(PanelEliminarPiloto, "card10");
 
-        jLabel61.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel61.setText("-Nombre:");
+        PanelEliminarComisarioDeportivo.setMinimumSize(new java.awt.Dimension(959, 800));
+        PanelEliminarComisarioDeportivo.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelEliminarComisarioDeportivo.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel62.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel62.setText("Ingrese el nombre  y el apellido del C.D. que desea eliminar");
+        TituloEliminarCD.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TituloEliminarCD.setText("Eliminando comisario deportivo");
+        PanelEliminarComisarioDeportivo.add(TituloEliminarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
 
-        jLabel63.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel63.setText("-Apellido:");
+        TextoNombrec.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoNombrec.setText("-Nombre:");
+        PanelEliminarComisarioDeportivo.add(TextoNombrec, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 103, -1, -1));
 
-        jTextField32.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jTextField32.addActionListener(new java.awt.event.ActionListener() {
+        DescripciónEliminarCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        DescripciónEliminarCD.setText("Ingrese el nombre  y el apellido del C.D. que desea eliminar");
+        PanelEliminarComisarioDeportivo.add(DescripciónEliminarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 57, -1, -1));
+
+        TextoApellidoc.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoApellidoc.setText("-Apellido:");
+        PanelEliminarComisarioDeportivo.add(TextoApellidoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(292, 103, -1, -1));
+
+        TextoEliminarApellidoCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        TextoEliminarApellidoCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField32ActionPerformed(evt);
+                TextoEliminarApellidoCDActionPerformed(evt);
             }
         });
+        PanelEliminarComisarioDeportivo.add(TextoEliminarApellidoCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(375, 100, 185, -1));
 
-        jButton24.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton24.setText("Buscar en el programa");
+        TextoEliminarNombreCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        PanelEliminarComisarioDeportivo.add(TextoEliminarNombreCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(89, 100, 197, -1));
 
-        jTextField34.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        BuscarButtonEliminarCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        BuscarButtonEliminarCD.setText("Buscar en el programa");
+        PanelEliminarComisarioDeportivo.add(BuscarButtonEliminarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(578, 100, -1, -1));
 
-        jButton25.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton25.setText("Eliminar");
+        EliminarButtonCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        EliminarButtonCD.setText("Eliminar");
+        PanelEliminarComisarioDeportivo.add(EliminarButtonCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(343, 503, -1, -1));
 
-        jLabel64.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
-        jLabel64.setText("Eliminando comisario deportivo");
-
-        VolverButton8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton8.setText("Volver");
-        VolverButton8.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonEliminarCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonEliminarCD.setText("Volver");
+        VolverButtonEliminarCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton8ActionPerformed(evt);
+                VolverButtonEliminarCDActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout PanelEliminarComisarioDeportivoLayout = new javax.swing.GroupLayout(PanelEliminarComisarioDeportivo);
-        PanelEliminarComisarioDeportivo.setLayout(PanelEliminarComisarioDeportivoLayout);
-        PanelEliminarComisarioDeportivoLayout.setHorizontalGroup(
-            PanelEliminarComisarioDeportivoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelEliminarComisarioDeportivoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelEliminarComisarioDeportivoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelEliminarComisarioDeportivoLayout.createSequentialGroup()
-                        .addComponent(jLabel61)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField34, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel63)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextField32, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton24)
-                        .addContainerGap(170, Short.MAX_VALUE))
-                    .addGroup(PanelEliminarComisarioDeportivoLayout.createSequentialGroup()
-                        .addGroup(PanelEliminarComisarioDeportivoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel62)
-                            .addComponent(jLabel64))
-                        .addGap(0, 0, Short.MAX_VALUE))))
-            .addGroup(PanelEliminarComisarioDeportivoLayout.createSequentialGroup()
-                .addGap(343, 343, 343)
-                .addComponent(jButton25)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelEliminarComisarioDeportivoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(VolverButton8)
-                .addContainerGap())
-        );
-        PanelEliminarComisarioDeportivoLayout.setVerticalGroup(
-            PanelEliminarComisarioDeportivoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelEliminarComisarioDeportivoLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel64)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel62)
-                .addGap(18, 18, 18)
-                .addGroup(PanelEliminarComisarioDeportivoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel61)
-                    .addComponent(jTextField34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel63)
-                    .addComponent(jTextField32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton24))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 255, Short.MAX_VALUE)
-                .addComponent(jButton25)
-                .addGap(231, 231, 231)
-                .addComponent(VolverButton8)
-                .addContainerGap())
-        );
+        PanelEliminarComisarioDeportivo.add(VolverButtonEliminarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(871, 766, -1, -1));
 
         PanelEditar.add(PanelEliminarComisarioDeportivo, "card11");
 
         PanelContenedor.add(PanelEditar, "card3");
 
+        PanelInfo.setPreferredSize(new java.awt.Dimension(802, 702));
         PanelInfo.setLayout(new java.awt.CardLayout());
 
-        CDepButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        CDepButton.setText("Comisarios Deportivos");
-        CDepButton.addActionListener(new java.awt.event.ActionListener() {
+        PanelBotonesInformación.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelBotonesInformación.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloInformación.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloInformación.setText("Información");
+        PanelBotonesInformación.add(TítuloInformación, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        ButtonInfoEquipos.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonInfoEquipos.setText("Equipos");
+        ButtonInfoEquipos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CDepButtonActionPerformed(evt);
+                ButtonInfoEquiposActionPerformed(evt);
             }
         });
+        PanelBotonesInformación.add(ButtonInfoEquipos, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 220, 30));
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton1.setText("Tabla de Posiciones");
+        ButtonInfoCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonInfoCD.setText("Comisarios Deportivos");
+        ButtonInfoCD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonInfoCDActionPerformed(evt);
+            }
+        });
+        PanelBotonesInformación.add(ButtonInfoCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 220, 30));
+
+        ButtonInfoPilotos.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonInfoPilotos.setText("Pilotos");
+        ButtonInfoPilotos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonInfoPilotosActionPerformed(evt);
+            }
+        });
+        PanelBotonesInformación.add(ButtonInfoPilotos, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, 220, 30));
+
+        ButtonInfoTablas.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonInfoTablas.setText("Tabla de Posiciones");
+        ButtonInfoTablas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonInfoTablasActionPerformed(evt);
+            }
+        });
+        PanelBotonesInformación.add(ButtonInfoTablas, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 220, 30));
+
+        PanelInfo.add(PanelBotonesInformación, "card5");
+
+        PanelMostrarEquipos.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelMostrarEquipos.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        ButtonEquipos.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        ButtonEquipos.setText("Equipos");
+        PanelMostrarEquipos.add(ButtonEquipos, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 120, 40));
+
+        ButtonSony.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonSony.setText("Sony");
+        ButtonSony.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonSonyActionPerformed(evt);
+            }
+        });
+        PanelMostrarEquipos.add(ButtonSony, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 170, 40));
+
+        ButtonNintendo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonNintendo.setText("Nintendo");
+        PanelMostrarEquipos.add(ButtonNintendo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 470, 170, 40));
+
+        ButtonBandai.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonBandai.setText("Bandai");
+        PanelMostrarEquipos.add(ButtonBandai, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 520, 170, 40));
+
+        ButtonSega.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonSega.setText("Sega");
+        PanelMostrarEquipos.add(ButtonSega, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 170, 40));
+
+        ButtonVocaloid.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonVocaloid.setText("Vocaloid");
+        PanelMostrarEquipos.add(ButtonVocaloid, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, 170, 40));
+
+        ButtonRetro.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonRetro.setText("Retro");
+        PanelMostrarEquipos.add(ButtonRetro, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, 170, 40));
+
+        ButtonUbisoft.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonUbisoft.setText("Ubisoft");
+        PanelMostrarEquipos.add(ButtonUbisoft, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, 170, 40));
+
+        ButtonCapcom.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCapcom.setText("Capcom");
+        PanelMostrarEquipos.add(ButtonCapcom, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 170, 40));
+
+        ButtonCartoon.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCartoon.setText("Cartoon");
+        PanelMostrarEquipos.add(ButtonCartoon, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 170, 40));
+
+        ButtonIndie.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonIndie.setText("Indie");
+        PanelMostrarEquipos.add(ButtonIndie, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 420, 170, 40));
+
+        VolverButtonMostrarEquipos.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonMostrarEquipos.setText("Volver");
+        VolverButtonMostrarEquipos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonMostrarEquiposActionPerformed(evt);
+            }
+        });
+        PanelMostrarEquipos.add(VolverButtonMostrarEquipos, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 758, 110, -1));
+
+        PanelInfo.add(PanelMostrarEquipos, "card3");
+
+        PanelSony.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelSony.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony.setText("Equipo Sony");
+        PanelSony.add(TítuloSony, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a.setText("Información");
+        PanelSony.add(Información_a, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_1.setText("Piloto Nº1");
+        Sony_Button_P_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_1ActionPerformed(evt);
+            }
+        });
+        PanelSony.add(Sony_Button_P_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_2.setText("Piloto Nº2");
+        Sony_Button_P_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_2ActionPerformed(evt);
+            }
+        });
+        PanelSony.add(Sony_Button_P_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_3.setText("Piloto Nº3");
+        PanelSony.add(Sony_Button_P_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_4.setText("Piloto Nº4");
+        PanelSony.add(Sony_Button_P_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony.setText("Volver");
+        VolverButtonSony.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSonyActionPerformed(evt);
+            }
+        });
+        PanelSony.add(VolverButtonSony, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony.setViewportView(ListaSony);
+        if (ListaSony.getColumnModel().getColumnCount() > 0) {
+            ListaSony.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelSony.add(ScrollPanelSony, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelSony, "card4");
+
+        PanelNintendo.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelNintendo.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloNintendo.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloNintendo.setText("Equipo Sony");
+        PanelNintendo.add(TítuloNintendo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_b.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_b.setText("Información");
+        PanelNintendo.add(Información_b, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Nintendo_Button_P_1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Nintendo_Button_P_1.setText("Piloto Nº1");
+        Nintendo_Button_P_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Nintendo_Button_P_1ActionPerformed(evt);
+            }
+        });
+        PanelNintendo.add(Nintendo_Button_P_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Nintendo_Button_P_2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Nintendo_Button_P_2.setText("Piloto Nº2");
+        Nintendo_Button_P_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Nintendo_Button_P_2ActionPerformed(evt);
+            }
+        });
+        PanelNintendo.add(Nintendo_Button_P_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Nintendo_Button_P_3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Nintendo_Button_P_3.setText("Piloto Nº3");
+        PanelNintendo.add(Nintendo_Button_P_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Nintendo_Button_P_4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Nintendo_Button_P_4.setText("Piloto Nº4");
+        PanelNintendo.add(Nintendo_Button_P_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonNintendo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonNintendo.setText("Volver");
+        VolverButtonNintendo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonNintendoActionPerformed(evt);
+            }
+        });
+        PanelNintendo.add(VolverButtonNintendo, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony1.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony1.setViewportView(ListaSony1);
+        if (ListaSony1.getColumnModel().getColumnCount() > 0) {
+            ListaSony1.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelNintendo.add(ScrollPanelSony1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelNintendo, "card4");
+
+        PanelSega.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelSega.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSega.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSega.setText("Equipo Sega");
+        PanelSega.add(TítuloSega, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_c.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_c.setText("Información");
+        PanelSega.add(Información_c, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sega_Button_P_1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sega_Button_P_1.setText("Piloto Nº1");
+        Sega_Button_P_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sega_Button_P_1ActionPerformed(evt);
+            }
+        });
+        PanelSega.add(Sega_Button_P_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sega_Button_P_2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sega_Button_P_2.setText("Piloto Nº2");
+        Sega_Button_P_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sega_Button_P_2ActionPerformed(evt);
+            }
+        });
+        PanelSega.add(Sega_Button_P_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sega_Button_P_3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sega_Button_P_3.setText("Piloto Nº3");
+        Sega_Button_P_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sega_Button_P_3ActionPerformed(evt);
+            }
+        });
+        PanelSega.add(Sega_Button_P_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sega_Button_P_4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sega_Button_P_4.setText("Piloto Nº4");
+        PanelSega.add(Sega_Button_P_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony2.setText("Volver");
+        VolverButtonSony2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony2ActionPerformed(evt);
+            }
+        });
+        PanelSega.add(VolverButtonSony2, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSega.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSega.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSega.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSega.setViewportView(ListaSega);
+        if (ListaSega.getColumnModel().getColumnCount() > 0) {
+            ListaSega.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelSega.add(ScrollPanelSega, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelSega, "card4");
+
+        PanelBandai.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelBandai.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony2.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony2.setText("Equipo Bandai");
+        PanelBandai.add(TítuloSony2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a3.setText("Información");
+        PanelBandai.add(Información_a3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_13.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_13.setText("Piloto Nº1");
+        Sony_Button_P_13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_13ActionPerformed(evt);
+            }
+        });
+        PanelBandai.add(Sony_Button_P_13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_14.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_14.setText("Piloto Nº2");
+        Sony_Button_P_14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_14ActionPerformed(evt);
+            }
+        });
+        PanelBandai.add(Sony_Button_P_14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_15.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_15.setText("Piloto Nº3");
+        PanelBandai.add(Sony_Button_P_15, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_16.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_16.setText("Piloto Nº4");
+        PanelBandai.add(Sony_Button_P_16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony3.setText("Volver");
+        VolverButtonSony3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony3ActionPerformed(evt);
+            }
+        });
+        PanelBandai.add(VolverButtonSony3, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony3.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony3.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony3.setViewportView(ListaSony3);
+        if (ListaSony3.getColumnModel().getColumnCount() > 0) {
+            ListaSony3.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelBandai.add(ScrollPanelSony3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelBandai, "card4");
+
+        PanelRetro.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelRetro.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony3.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony3.setText("Equipo Sony");
+        PanelRetro.add(TítuloSony3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a4.setText("Información");
+        PanelRetro.add(Información_a4, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_17.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_17.setText("Piloto Nº1");
+        Sony_Button_P_17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_17ActionPerformed(evt);
+            }
+        });
+        PanelRetro.add(Sony_Button_P_17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_18.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_18.setText("Piloto Nº2");
+        Sony_Button_P_18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_18ActionPerformed(evt);
+            }
+        });
+        PanelRetro.add(Sony_Button_P_18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_19.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_19.setText("Piloto Nº3");
+        PanelRetro.add(Sony_Button_P_19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_20.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_20.setText("Piloto Nº4");
+        PanelRetro.add(Sony_Button_P_20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony4.setText("Volver");
+        VolverButtonSony4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony4ActionPerformed(evt);
+            }
+        });
+        PanelRetro.add(VolverButtonSony4, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony4.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony4.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony4.setViewportView(ListaSony4);
+        if (ListaSony4.getColumnModel().getColumnCount() > 0) {
+            ListaSony4.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelRetro.add(ScrollPanelSony4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelRetro, "card4");
+
+        PanelVocaloid.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelVocaloid.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony4.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony4.setText("Equipo Sony");
+        PanelVocaloid.add(TítuloSony4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a5.setText("Información");
+        PanelVocaloid.add(Información_a5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_21.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_21.setText("Piloto Nº1");
+        Sony_Button_P_21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_21ActionPerformed(evt);
+            }
+        });
+        PanelVocaloid.add(Sony_Button_P_21, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_22.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_22.setText("Piloto Nº2");
+        Sony_Button_P_22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_22ActionPerformed(evt);
+            }
+        });
+        PanelVocaloid.add(Sony_Button_P_22, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_23.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_23.setText("Piloto Nº3");
+        PanelVocaloid.add(Sony_Button_P_23, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_24.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_24.setText("Piloto Nº4");
+        PanelVocaloid.add(Sony_Button_P_24, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony5.setText("Volver");
+        VolverButtonSony5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony5ActionPerformed(evt);
+            }
+        });
+        PanelVocaloid.add(VolverButtonSony5, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony5.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony5.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony5.setViewportView(ListaSony5);
+        if (ListaSony5.getColumnModel().getColumnCount() > 0) {
+            ListaSony5.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelVocaloid.add(ScrollPanelSony5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelVocaloid, "card4");
+
+        PanelCapcom.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelCapcom.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony5.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony5.setText("Equipo Sony");
+        PanelCapcom.add(TítuloSony5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a6.setText("Información");
+        PanelCapcom.add(Información_a6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_25.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_25.setText("Piloto Nº1");
+        Sony_Button_P_25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_25ActionPerformed(evt);
+            }
+        });
+        PanelCapcom.add(Sony_Button_P_25, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_26.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_26.setText("Piloto Nº2");
+        Sony_Button_P_26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_26ActionPerformed(evt);
+            }
+        });
+        PanelCapcom.add(Sony_Button_P_26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_27.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_27.setText("Piloto Nº3");
+        PanelCapcom.add(Sony_Button_P_27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_28.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_28.setText("Piloto Nº4");
+        PanelCapcom.add(Sony_Button_P_28, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony6.setText("Volver");
+        VolverButtonSony6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony6ActionPerformed(evt);
+            }
+        });
+        PanelCapcom.add(VolverButtonSony6, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony6.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony6.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony6.setViewportView(ListaSony6);
+        if (ListaSony6.getColumnModel().getColumnCount() > 0) {
+            ListaSony6.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelCapcom.add(ScrollPanelSony6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelCapcom, "card4");
+
+        PanelUbisoft.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelUbisoft.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony6.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony6.setText("Equipo Sony");
+        PanelUbisoft.add(TítuloSony6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a7.setText("Información");
+        PanelUbisoft.add(Información_a7, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_29.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_29.setText("Piloto Nº1");
+        Sony_Button_P_29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_29ActionPerformed(evt);
+            }
+        });
+        PanelUbisoft.add(Sony_Button_P_29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_30.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_30.setText("Piloto Nº2");
+        Sony_Button_P_30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_30ActionPerformed(evt);
+            }
+        });
+        PanelUbisoft.add(Sony_Button_P_30, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_31.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_31.setText("Piloto Nº3");
+        PanelUbisoft.add(Sony_Button_P_31, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_32.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_32.setText("Piloto Nº4");
+        PanelUbisoft.add(Sony_Button_P_32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony7.setText("Volver");
+        VolverButtonSony7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony7ActionPerformed(evt);
+            }
+        });
+        PanelUbisoft.add(VolverButtonSony7, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony7.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony7.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony7.setViewportView(ListaSony7);
+        if (ListaSony7.getColumnModel().getColumnCount() > 0) {
+            ListaSony7.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelUbisoft.add(ScrollPanelSony7, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelUbisoft, "card4");
+
+        PanelIndie.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelIndie.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony7.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony7.setText("Equipo Sony");
+        PanelIndie.add(TítuloSony7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a8.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a8.setText("Información");
+        PanelIndie.add(Información_a8, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_33.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_33.setText("Piloto Nº1");
+        Sony_Button_P_33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_33ActionPerformed(evt);
+            }
+        });
+        PanelIndie.add(Sony_Button_P_33, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_34.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_34.setText("Piloto Nº2");
+        Sony_Button_P_34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_34ActionPerformed(evt);
+            }
+        });
+        PanelIndie.add(Sony_Button_P_34, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_35.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_35.setText("Piloto Nº3");
+        PanelIndie.add(Sony_Button_P_35, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_36.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_36.setText("Piloto Nº4");
+        PanelIndie.add(Sony_Button_P_36, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony8.setText("Volver");
+        VolverButtonSony8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony8ActionPerformed(evt);
+            }
+        });
+        PanelIndie.add(VolverButtonSony8, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony8.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony8.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony8.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony8.setViewportView(ListaSony8);
+        if (ListaSony8.getColumnModel().getColumnCount() > 0) {
+            ListaSony8.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelIndie.add(ScrollPanelSony8, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelIndie, "card4");
+
+        PanelCartoon.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelCartoon.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloSony8.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloSony8.setText("Equipo Sony");
+        PanelCartoon.add(TítuloSony8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 190, 50));
+
+        Información_a9.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        Información_a9.setText("Información");
+        PanelCartoon.add(Información_a9, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 170, 80, 40));
+
+        Sony_Button_P_37.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_37.setText("Piloto Nº1");
+        Sony_Button_P_37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_37ActionPerformed(evt);
+            }
+        });
+        PanelCartoon.add(Sony_Button_P_37, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 190, 50));
+
+        Sony_Button_P_38.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_38.setText("Piloto Nº2");
+        Sony_Button_P_38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Sony_Button_P_38ActionPerformed(evt);
+            }
+        });
+        PanelCartoon.add(Sony_Button_P_38, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 190, 50));
+
+        Sony_Button_P_39.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_39.setText("Piloto Nº3");
+        PanelCartoon.add(Sony_Button_P_39, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 190, 50));
+
+        Sony_Button_P_40.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Sony_Button_P_40.setText("Piloto Nº4");
+        PanelCartoon.add(Sony_Button_P_40, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 430, 190, 50));
+
+        VolverButtonSony9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonSony9.setText("Volver");
+        VolverButtonSony9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonSony9ActionPerformed(evt);
+            }
+        });
+        PanelCartoon.add(VolverButtonSony9, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 760, 110, 30));
+
+        ScrollPanelSony9.setPreferredSize(new java.awt.Dimension(150, 280));
+
+        ListaSony9.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        ListaSony9.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Equipo", null},
+                {"Rol", null},
+                {"Puntos", null},
+                {"Podios", null},
+                {"Poles", null},
+                {"Vueltas rápidas", null},
+                {"Penalizaciones", null},
+                {"Abandonos", null},
+                {"Licencia FIA", null}
+            },
+            new String [] {
+                "", " "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        ScrollPanelSony9.setViewportView(ListaSony9);
+        if (ListaSony9.getColumnModel().getColumnCount() > 0) {
+            ListaSony9.getColumnModel().getColumn(1).setPreferredWidth(230);
+        }
+
+        PanelCartoon.add(ScrollPanelSony9, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 180, 560, 310));
+
+        PanelInfo.add(PanelCartoon, "card4");
+
+        PanelPilotos.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelPilotos.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PanelInfo.add(PanelPilotos, "card14");
+
+        PanelTablasDePosición.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelTablasDePosición.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TítuloTablasPosición.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TítuloTablasPosición.setText("Tablas de Posición");
+        PanelTablasDePosición.add(TítuloTablasPosición, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jButton1.setText("Top 3 Pilotos con más podios");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
+        PanelTablasDePosición.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
 
-        TeamButton.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        TeamButton.setText("Equipos");
-        TeamButton.addActionListener(new java.awt.event.ActionListener() {
+        jButton2.setText("Equipo con más puntos");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TeamButtonActionPerformed(evt);
+                jButton2ActionPerformed(evt);
             }
         });
+        PanelTablasDePosición.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, 190, -1));
 
-        CDepButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        CDepButton1.setText("Pilotos");
-        CDepButton1.addActionListener(new java.awt.event.ActionListener() {
+        VolverButtonTablas.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonTablas.setText("Volver");
+        VolverButtonTablas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CDepButton1ActionPerformed(evt);
+                VolverButtonTablasActionPerformed(evt);
             }
         });
+        PanelTablasDePosición.add(VolverButtonTablas, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 758, 110, -1));
 
-        javax.swing.GroupLayout PanelBotonesInformaciónLayout = new javax.swing.GroupLayout(PanelBotonesInformación);
-        PanelBotonesInformación.setLayout(PanelBotonesInformaciónLayout);
-        PanelBotonesInformaciónLayout.setHorizontalGroup(
-            PanelBotonesInformaciónLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelBotonesInformaciónLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelBotonesInformaciónLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(TeamButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(CDepButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(CDepButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(738, Short.MAX_VALUE))
+        PanelEquipoPuntos.setBorder(new javax.swing.border.MatteBorder(null));
+
+        javax.swing.GroupLayout PanelEquipoPuntosLayout = new javax.swing.GroupLayout(PanelEquipoPuntos);
+        PanelEquipoPuntos.setLayout(PanelEquipoPuntosLayout);
+        PanelEquipoPuntosLayout.setHorizontalGroup(
+            PanelEquipoPuntosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 508, Short.MAX_VALUE)
         );
-        PanelBotonesInformaciónLayout.setVerticalGroup(
-            PanelBotonesInformaciónLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelBotonesInformaciónLayout.createSequentialGroup()
-                .addGap(95, 95, 95)
-                .addComponent(TeamButton)
-                .addGap(18, 18, 18)
-                .addComponent(CDepButton)
-                .addGap(18, 18, 18)
-                .addComponent(jButton1)
-                .addGap(18, 18, 18)
-                .addComponent(CDepButton1)
-                .addContainerGap(425, Short.MAX_VALUE))
+        PanelEquipoPuntosLayout.setVerticalGroup(
+            PanelEquipoPuntosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 578, Short.MAX_VALUE)
         );
 
-        PanelInfo.add(PanelBotonesInformación, "card5");
+        PanelTablasDePosición.add(PanelEquipoPuntos, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 130, 510, 580));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
-        jLabel1.setText("Equipos");
+        PanelPilotosPodios.setBorder(new javax.swing.border.MatteBorder(null));
 
-        jButton6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton6.setText("Sony");
+        javax.swing.GroupLayout PanelPilotosPodiosLayout = new javax.swing.GroupLayout(PanelPilotosPodios);
+        PanelPilotosPodios.setLayout(PanelPilotosPodiosLayout);
+        PanelPilotosPodiosLayout.setHorizontalGroup(
+            PanelPilotosPodiosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 508, Short.MAX_VALUE)
+        );
+        PanelPilotosPodiosLayout.setVerticalGroup(
+            PanelPilotosPodiosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 578, Short.MAX_VALUE)
+        );
 
-        jButton7.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton7.setText("Nintendo");
+        PanelTablasDePosición.add(PanelPilotosPodios, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 130, 510, 580));
 
-        jButton8.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton8.setText("Bandai");
+        PanelInfo.add(PanelTablasDePosición, "card15");
 
-        jButton9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton9.setText("Sega");
+        PanelMostrarComisariosDeportivos.setPreferredSize(new java.awt.Dimension(959, 800));
+        PanelMostrarComisariosDeportivos.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton10.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton10.setText("Vocaloid");
+        TextoInformaciónCD.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        TextoInformaciónCD.setText("Información");
+        PanelMostrarComisariosDeportivos.add(TextoInformaciónCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 130, -1, 40));
 
-        jButton11.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton11.setText("Retro");
+        TituloCDMostrar.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
+        TituloCDMostrar.setText("Comisarios deportivos");
+        PanelMostrarComisariosDeportivos.add(TituloCDMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
 
-        jButton12.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton12.setText("Ubisoft");
+        ScrollPanelCD.setPreferredSize(new java.awt.Dimension(150, 280));
 
-        jButton15.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton15.setText("Capcom");
+        TablaMostrarCD.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        TablaMostrarCD.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Nombre", ""},
+                {"Apellido", null},
+                {"Fecha de nacimiento", null},
+                {"Nacionalidad", null},
+                {"Número de auto", null},
+                {"Sanciones aplicadas", null},
+                {"Internacional FIA", null}
+            },
+            new String [] {
+                "", "     "
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false
+            };
 
-        jButton16.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton16.setText("Cartoon");
-
-        jButton17.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton17.setText("Indie");
-
-        VolverButton9.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton9.setText("Volver");
-        VolverButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton9ActionPerformed(evt);
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
             }
         });
+        TablaMostrarCD.setEnabled(false);
+        ScrollPanelCD.setViewportView(TablaMostrarCD);
+        if (TablaMostrarCD.getColumnModel().getColumnCount() > 0) {
+            TablaMostrarCD.getColumnModel().getColumn(0).setPreferredWidth(1);
+            TablaMostrarCD.getColumnModel().getColumn(1).setPreferredWidth(230);
+            TablaMostrarCD.getColumnModel().getColumn(1).setHeaderValue("     ");
+        }
 
-        jLabel44.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel44.setText("-Equipo con más puntos:");
+        PanelMostrarComisariosDeportivos.add(ScrollPanelCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, 539, 170));
 
-        javax.swing.GroupLayout PanelEquiposLayout = new javax.swing.GroupLayout(PanelEquipos);
-        PanelEquipos.setLayout(PanelEquiposLayout);
-        PanelEquiposLayout.setHorizontalGroup(
-            PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelEquiposLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelEquiposLayout.createSequentialGroup()
-                        .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelEquiposLayout.createSequentialGroup()
-                                .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(VolverButton9))
-                            .addGroup(PanelEquiposLayout.createSequentialGroup()
-                                .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(jButton8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(jButton12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 259, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 0, Short.MAX_VALUE)))
-                        .addContainerGap())
-                    .addGroup(PanelEquiposLayout.createSequentialGroup()
-                        .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, 259, Short.MAX_VALUE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 394, Short.MAX_VALUE)
-                        .addComponent(jLabel44)
-                        .addGap(96, 96, 96))))
-        );
-        PanelEquiposLayout.setVerticalGroup(
-            PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelEquiposLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addGap(37, 37, 37)
-                .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel44))
-                .addGap(35, 35, 35)
-                .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
-                .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
-                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
-                .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35)
-                .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
-                .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
-                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
-                .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(PanelEquiposLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelEquiposLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(VolverButton9)
-                        .addContainerGap())
-                    .addGroup(PanelEquiposLayout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(37, Short.MAX_VALUE))))
-        );
-
-        PanelInfo.add(PanelEquipos, "card3");
-
-        jButton18.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton18.setText("Piloto Nº1");
-
-        jButton19.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton19.setText("Piloto Nº2");
-
-        jButton20.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton20.setText("Piloto Nº3");
-
-        jButton21.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton21.setText("Piloto Nº4");
-
-        jLabel46.setFont(new java.awt.Font("Segoe UI", 0, 33)); // NOI18N
-        jLabel46.setText("Equipo Sony");
-
-        VolverButton10.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        VolverButton10.setText("Volver");
-        VolverButton10.addActionListener(new java.awt.event.ActionListener() {
+        ButtonCD_1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCD_1.setText("C.D. Nº1");
+        ButtonCD_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                VolverButton10ActionPerformed(evt);
+                ButtonCD_1ActionPerformed(evt);
             }
         });
+        PanelMostrarComisariosDeportivos.add(ButtonCD_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 100, -1));
 
-        jPanel1.setBorder(new javax.swing.border.MatteBorder(null));
+        ButtonCD_2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCD_2.setText("C.D. Nº2");
+        ButtonCD_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonCD_2ActionPerformed(evt);
+            }
+        });
+        PanelMostrarComisariosDeportivos.add(ButtonCD_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 100, -1));
 
-        jLabel47.setText("Información");
+        ButtonCD_3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCD_3.setText("C.D. Nº5");
+        ButtonCD_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonCD_3ActionPerformed(evt);
+            }
+        });
+        PanelMostrarComisariosDeportivos.add(ButtonCD_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, -1, -1));
 
-        jLabel48.setText("Nombre");
+        ButtonCD_4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCD_4.setText("C.D. Nº3");
+        ButtonCD_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonCD_4ActionPerformed(evt);
+            }
+        });
+        PanelMostrarComisariosDeportivos.add(ButtonCD_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
+        ButtonCD_5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCD_5.setText("C.D. Nº4");
+        ButtonCD_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonCD_5ActionPerformed(evt);
+            }
+        });
+        PanelMostrarComisariosDeportivos.add(ButtonCD_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 310, -1, -1));
 
-        jTextArea2.setColumns(20);
-        jTextArea2.setRows(5);
-        jScrollPane6.setViewportView(jTextArea2);
+        ButtonCD_6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        ButtonCD_6.setText("C.D. Nº6");
+        ButtonCD_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ButtonCD_6ActionPerformed(evt);
+            }
+        });
+        PanelMostrarComisariosDeportivos.add(ButtonCD_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 430, -1, -1));
 
-        jLabel49.setText("Apellido");
+        VolverButtonMostrarCD.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        VolverButtonMostrarCD.setText("Volver");
+        VolverButtonMostrarCD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                VolverButtonMostrarCDActionPerformed(evt);
+            }
+        });
+        PanelMostrarComisariosDeportivos.add(VolverButtonMostrarCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 758, 110, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(225, 225, 225)
-                        .addComponent(jLabel47)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel48)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jScrollPane1))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel49)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 478, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel47)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel48)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel49)
-                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(341, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout PanelSonyLayout = new javax.swing.GroupLayout(PanelSony);
-        PanelSony.setLayout(PanelSonyLayout);
-        PanelSonyLayout.setHorizontalGroup(
-            PanelSonyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelSonyLayout.createSequentialGroup()
-                .addGroup(PanelSonyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelSonyLayout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(VolverButton10))
-                    .addGroup(PanelSonyLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel46)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-            .addGroup(PanelSonyLayout.createSequentialGroup()
-                .addGap(45, 45, 45)
-                .addGroup(PanelSonyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton21)
-                    .addComponent(jButton20)
-                    .addComponent(jButton19)
-                    .addComponent(jButton18))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 180, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(76, 76, 76))
-        );
-        PanelSonyLayout.setVerticalGroup(
-            PanelSonyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelSonyLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel46)
-                .addGroup(PanelSonyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelSonyLayout.createSequentialGroup()
-                        .addGap(139, 139, 139)
-                        .addComponent(jButton18)
-                        .addGap(52, 52, 52)
-                        .addComponent(jButton19)
-                        .addGap(52, 52, 52)
-                        .addComponent(jButton20)
-                        .addGap(51, 51, 51)
-                        .addComponent(jButton21)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(VolverButton10)
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelSonyLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 101, Short.MAX_VALUE)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(107, 107, 107))))
-        );
-
-        PanelInfo.add(PanelSony, "card4");
+        PanelInfo.add(PanelMostrarComisariosDeportivos, "card16");
 
         PanelContenedor.add(PanelInfo, "card4");
 
@@ -1972,8 +2434,8 @@ public class NewJFrame extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(PanelBotonesPermanentes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(PanelContenedor, javax.swing.GroupLayout.DEFAULT_SIZE, 690, Short.MAX_VALUE))
+                    .addComponent(PanelBotonesPermanentes, javax.swing.GroupLayout.DEFAULT_SIZE, 800, Short.MAX_VALUE)
+                    .addComponent(PanelContenedor, javax.swing.GroupLayout.PREFERRED_SIZE, 800, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -2015,71 +2477,71 @@ public class NewJFrame extends javax.swing.JFrame {
         PanelContenedor.revalidate();
     }//GEN-LAST:event_ComisarioDeportivoCargarButtonActionPerformed
 
-    private void VolverButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton2ActionPerformed
+    private void VolverButtonElegirCargarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonElegirCargarActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelBotonesEditar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton2ActionPerformed
+    }//GEN-LAST:event_VolverButtonElegirCargarActionPerformed
 
-    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+    private void TextoCargarMesPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarMesPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField5ActionPerformed
+    }//GEN-LAST:event_TextoCargarMesPilotoActionPerformed
 
-    private void VolverButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonActionPerformed
+    private void VolverButtonCargarPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonCargarPilotoActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelElegirCargar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButtonActionPerformed
+    }//GEN-LAST:event_VolverButtonCargarPilotoActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void TextoCargarApellidoPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarApellidoPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_TextoCargarApellidoPilotoActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void TextoCargarNombrePilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarNombrePilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_TextoCargarNombrePilotoActionPerformed
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void TextoCargarDiaPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarDiaPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_TextoCargarDiaPilotoActionPerformed
 
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+    private void TextoCargarAñoPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarAñoPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
+    }//GEN-LAST:event_TextoCargarAñoPilotoActionPerformed
 
-    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+    private void TextoCargarNumeroAutoPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarNumeroAutoPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField7ActionPerformed
+    }//GEN-LAST:event_TextoCargarNumeroAutoPilotoActionPerformed
 
-    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
+    private void TextoCargarPuntosPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarPuntosPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField8ActionPerformed
+    }//GEN-LAST:event_TextoCargarPuntosPilotoActionPerformed
 
-    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
+    private void TextoCargarPodiosPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarPodiosPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField9ActionPerformed
+    }//GEN-LAST:event_TextoCargarPodiosPilotoActionPerformed
 
-    private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
+    private void TextoCargarPolesPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarPolesPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField10ActionPerformed
+    }//GEN-LAST:event_TextoCargarPolesPilotoActionPerformed
 
-    private void jTextField11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField11ActionPerformed
+    private void TextoCargarPenalizacionesPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarPenalizacionesPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField11ActionPerformed
+    }//GEN-LAST:event_TextoCargarPenalizacionesPilotoActionPerformed
 
-    private void jTextField12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField12ActionPerformed
+    private void TextoCargarVueltasRapidasPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarVueltasRapidasPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField12ActionPerformed
+    }//GEN-LAST:event_TextoCargarVueltasRapidasPilotoActionPerformed
 
-    private void jTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField13ActionPerformed
+    private void TextoCargarAbandonosPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarAbandonosPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField13ActionPerformed
+    }//GEN-LAST:event_TextoCargarAbandonosPilotoActionPerformed
 
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+    private void CheckCargarLicenciaFIAPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CheckCargarLicenciaFIAPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox1ActionPerformed
+    }//GEN-LAST:event_CheckCargarLicenciaFIAPilotoActionPerformed
 
     private void EditButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EditButtonActionPerformed
         PanelContenedor.removeAll();
@@ -2088,182 +2550,182 @@ public class NewJFrame extends javax.swing.JFrame {
         PanelContenedor.revalidate();
     }//GEN-LAST:event_EditButtonActionPerformed
 
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+    private void TextoCargarNombreCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarNombreCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
+    }//GEN-LAST:event_TextoCargarNombreCDActionPerformed
 
-    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+    private void TextoCargarApellidoCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarApellidoCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField14ActionPerformed
+    }//GEN-LAST:event_TextoCargarApellidoCDActionPerformed
 
-    private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
+    private void TextoCargarDiaCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarDiaCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField15ActionPerformed
+    }//GEN-LAST:event_TextoCargarDiaCDActionPerformed
 
-    private void jTextField16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField16ActionPerformed
+    private void TextoCargarMesCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarMesCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField16ActionPerformed
+    }//GEN-LAST:event_TextoCargarMesCDActionPerformed
 
-    private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField17ActionPerformed
+    private void TextoCargarAñoCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarAñoCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField17ActionPerformed
+    }//GEN-LAST:event_TextoCargarAñoCDActionPerformed
 
-    private void VolverButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton1ActionPerformed
+    private void VolverButtonCargarCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonCargarCDActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelElegirCargar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton1ActionPerformed
+    }//GEN-LAST:event_VolverButtonCargarCDActionPerformed
 
-    private void jCheckBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox2ActionPerformed
+    private void CheckCargarInternacionalFIAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CheckCargarInternacionalFIAActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox2ActionPerformed
+    }//GEN-LAST:event_CheckCargarInternacionalFIAActionPerformed
 
-    private void PilotoCargarButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PilotoCargarButton1ActionPerformed
+    private void PilotoModificarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PilotoModificarButtonActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelPilotoModificar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_PilotoCargarButton1ActionPerformed
+    }//GEN-LAST:event_PilotoModificarButtonActionPerformed
 
-    private void ComisarioDeportivoCargarButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComisarioDeportivoCargarButton1ActionPerformed
+    private void CDModificarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CDModificarButtonActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelComisarioDeportivoModificar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_ComisarioDeportivoCargarButton1ActionPerformed
+    }//GEN-LAST:event_CDModificarButtonActionPerformed
 
-    private void VolverButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton3ActionPerformed
+    private void VolverButtonElegirModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonElegirModificarActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelBotonesEditar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton3ActionPerformed
+    }//GEN-LAST:event_VolverButtonElegirModificarActionPerformed
 
-    private void jTextField18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField18ActionPerformed
+    private void TextoBuscarNombrePilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoBuscarNombrePilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField18ActionPerformed
+    }//GEN-LAST:event_TextoBuscarNombrePilotoActionPerformed
 
-    private void jTextField19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField19ActionPerformed
+    private void TextoBuscarApellidoPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoBuscarApellidoPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField19ActionPerformed
+    }//GEN-LAST:event_TextoBuscarApellidoPilotoActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void BuscarButtonPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuscarButtonPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_BuscarButtonPilotoActionPerformed
 
-    private void jTextField20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField20ActionPerformed
+    private void TextoModificarNumeroAutoPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarNumeroAutoPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField20ActionPerformed
+    }//GEN-LAST:event_TextoModificarNumeroAutoPilotoActionPerformed
 
-    private void jTextField21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField21ActionPerformed
+    private void TextoModificarPolesPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarPolesPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField21ActionPerformed
+    }//GEN-LAST:event_TextoModificarPolesPilotoActionPerformed
 
-    private void jTextField24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField24ActionPerformed
+    private void TextoModificarPuntosPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarPuntosPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField24ActionPerformed
+    }//GEN-LAST:event_TextoModificarPuntosPilotoActionPerformed
 
-    private void jTextField22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField22ActionPerformed
+    private void TextoModificarPodiosPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarPodiosPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField22ActionPerformed
+    }//GEN-LAST:event_TextoModificarPodiosPilotoActionPerformed
 
-    private void jTextField23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField23ActionPerformed
+    private void TextoModificarAbandonoPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarAbandonoPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField23ActionPerformed
+    }//GEN-LAST:event_TextoModificarAbandonoPilotoActionPerformed
 
-    private void jTextField25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField25ActionPerformed
+    private void TextoModificarPenalizacionesPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarPenalizacionesPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField25ActionPerformed
+    }//GEN-LAST:event_TextoModificarPenalizacionesPilotoActionPerformed
 
-    private void jTextField26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField26ActionPerformed
+    private void TextoModificarVueltasPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarVueltasPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField26ActionPerformed
+    }//GEN-LAST:event_TextoModificarVueltasPilotoActionPerformed
 
-    private void VolverButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton4ActionPerformed
+    private void VolverButtonModificarPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonModificarPilotoActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelElegirModificar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton4ActionPerformed
+    }//GEN-LAST:event_VolverButtonModificarPilotoActionPerformed
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+    private void AplicarModificaciónPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AplicarModificaciónPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
+    }//GEN-LAST:event_AplicarModificaciónPilotoActionPerformed
 
-    private void VolverButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton5ActionPerformed
+    private void VolverButtonCDModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonCDModificarActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelElegirModificar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton5ActionPerformed
+    }//GEN-LAST:event_VolverButtonCDModificarActionPerformed
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+    private void AplicarButtonModificarCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AplicarButtonModificarCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
+    }//GEN-LAST:event_AplicarButtonModificarCDActionPerformed
 
-    private void jTextField35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField35ActionPerformed
+    private void TextoModificarSancionesCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoModificarSancionesCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField35ActionPerformed
+    }//GEN-LAST:event_TextoModificarSancionesCDActionPerformed
 
-    private void jTextField36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField36ActionPerformed
+    private void TextoNombreCDBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoNombreCDBuscarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField36ActionPerformed
+    }//GEN-LAST:event_TextoNombreCDBuscarActionPerformed
 
-    private void jTextField37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField37ActionPerformed
+    private void TextoApellidoCDBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoApellidoCDBuscarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField37ActionPerformed
+    }//GEN-LAST:event_TextoApellidoCDBuscarActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void BuscarCDModificarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BuscarCDModificarButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_BuscarCDModificarButtonActionPerformed
 
-    private void jCheckBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox3ActionPerformed
+    private void CheckModificarFIACDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CheckModificarFIACDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBox3ActionPerformed
+    }//GEN-LAST:event_CheckModificarFIACDActionPerformed
 
-    private void PilotoCargarButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PilotoCargarButton2ActionPerformed
+    private void ButtonPilotoEliminarElegirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonPilotoEliminarElegirActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelEliminarPiloto);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_PilotoCargarButton2ActionPerformed
+    }//GEN-LAST:event_ButtonPilotoEliminarElegirActionPerformed
 
-    private void ComisarioDeportivoCargarButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComisarioDeportivoCargarButton2ActionPerformed
+    private void ButtonCDEliminarElegirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonCDEliminarElegirActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelEliminarComisarioDeportivo);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_ComisarioDeportivoCargarButton2ActionPerformed
+    }//GEN-LAST:event_ButtonCDEliminarElegirActionPerformed
 
-    private void VolverButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton6ActionPerformed
+    private void VolverButtonElegirEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonElegirEliminarActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelBotonesEditar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton6ActionPerformed
+    }//GEN-LAST:event_VolverButtonElegirEliminarActionPerformed
 
-    private void jTextField30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField30ActionPerformed
+    private void TextoEliminarApellidoPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoEliminarApellidoPilotoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField30ActionPerformed
+    }//GEN-LAST:event_TextoEliminarApellidoPilotoActionPerformed
 
-    private void VolverButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton7ActionPerformed
+    private void VolverButtonEliminarPilotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonEliminarPilotoActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelElegirEliminar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton7ActionPerformed
+    }//GEN-LAST:event_VolverButtonEliminarPilotoActionPerformed
 
-    private void jTextField32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField32ActionPerformed
+    private void TextoEliminarApellidoCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoEliminarApellidoCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField32ActionPerformed
+    }//GEN-LAST:event_TextoEliminarApellidoCDActionPerformed
 
-    private void VolverButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton8ActionPerformed
+    private void VolverButtonEliminarCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonEliminarCDActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelElegirEliminar);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton8ActionPerformed
+    }//GEN-LAST:event_VolverButtonEliminarCDActionPerformed
 
     private void InitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InitButtonActionPerformed
         PanelContenedor.removeAll();
@@ -2272,27 +2734,30 @@ public class NewJFrame extends javax.swing.JFrame {
         PanelContenedor.revalidate();
     }//GEN-LAST:event_InitButtonActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void ButtonInfoTablasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonInfoTablasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_ButtonInfoTablasActionPerformed
 
-    private void CDepButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CDepButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CDepButtonActionPerformed
-
-    private void TeamButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TeamButtonActionPerformed
+    private void ButtonInfoCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonInfoCDActionPerformed
         PanelContenedor.removeAll();
-        PanelContenedor.add(PanelEquipos);
+        PanelContenedor.add(PanelMostrarComisariosDeportivos);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_TeamButtonActionPerformed
+    }//GEN-LAST:event_ButtonInfoCDActionPerformed
 
-    private void VolverButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton9ActionPerformed
+    private void ButtonInfoEquiposActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonInfoEquiposActionPerformed
+        PanelContenedor.removeAll();
+        PanelContenedor.add(PanelMostrarEquipos);
+        PanelContenedor.repaint();
+        PanelContenedor.revalidate();
+    }//GEN-LAST:event_ButtonInfoEquiposActionPerformed
+
+    private void VolverButtonMostrarEquiposActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonMostrarEquiposActionPerformed
         PanelContenedor.removeAll();
         PanelContenedor.add(PanelBotonesInformación);
         PanelContenedor.repaint();
         PanelContenedor.revalidate();
-    }//GEN-LAST:event_VolverButton9ActionPerformed
+    }//GEN-LAST:event_VolverButtonMostrarEquiposActionPerformed
 
     private void InfoButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InfoButtonActionPerformed
         PanelContenedor.removeAll();
@@ -2301,13 +2766,184 @@ public class NewJFrame extends javax.swing.JFrame {
         PanelContenedor.revalidate();
     }//GEN-LAST:event_InfoButtonActionPerformed
 
-    private void VolverButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButton10ActionPerformed
+    private void VolverButtonSonyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSonyActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_VolverButton10ActionPerformed
+    }//GEN-LAST:event_VolverButtonSonyActionPerformed
 
-    private void CDepButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CDepButton1ActionPerformed
+    private void ButtonInfoPilotosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonInfoPilotosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_CDepButton1ActionPerformed
+    }//GEN-LAST:event_ButtonInfoPilotosActionPerformed
+
+    private void ButtonSonyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonSonyActionPerformed
+        PanelContenedor.removeAll();
+        PanelContenedor.add(PanelSony);
+        PanelContenedor.repaint();
+        PanelContenedor.revalidate();
+    }//GEN-LAST:event_ButtonSonyActionPerformed
+
+    private void Sony_Button_P_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_1ActionPerformed
+
+    private void ButtonCD_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonCD_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonCD_1ActionPerformed
+
+    private void ButtonCD_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonCD_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonCD_2ActionPerformed
+
+    private void ButtonCD_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonCD_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonCD_4ActionPerformed
+
+    private void ButtonCD_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonCD_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonCD_3ActionPerformed
+
+    private void ButtonCD_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonCD_5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonCD_5ActionPerformed
+
+    private void ButtonCD_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonCD_6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ButtonCD_6ActionPerformed
+
+    private void TextoCargarNacionalidadCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextoCargarNacionalidadCDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TextoCargarNacionalidadCDActionPerformed
+
+    private void Sony_Button_P_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_2ActionPerformed
+
+    private void Nintendo_Button_P_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nintendo_Button_P_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Nintendo_Button_P_1ActionPerformed
+
+    private void Nintendo_Button_P_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nintendo_Button_P_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Nintendo_Button_P_2ActionPerformed
+
+    private void VolverButtonNintendoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonNintendoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonNintendoActionPerformed
+
+    private void Sega_Button_P_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sega_Button_P_1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sega_Button_P_1ActionPerformed
+
+    private void Sega_Button_P_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sega_Button_P_2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sega_Button_P_2ActionPerformed
+
+    private void VolverButtonSony2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony2ActionPerformed
+
+    private void Sony_Button_P_13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_13ActionPerformed
+
+    private void Sony_Button_P_14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_14ActionPerformed
+
+    private void VolverButtonSony3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony3ActionPerformed
+
+    private void Sony_Button_P_17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_17ActionPerformed
+
+    private void Sony_Button_P_18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_18ActionPerformed
+
+    private void VolverButtonSony4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony4ActionPerformed
+
+    private void Sony_Button_P_21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_21ActionPerformed
+
+    private void Sony_Button_P_22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_22ActionPerformed
+
+    private void VolverButtonSony5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony5ActionPerformed
+
+    private void Sony_Button_P_25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_25ActionPerformed
+
+    private void Sony_Button_P_26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_26ActionPerformed
+
+    private void VolverButtonSony6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony6ActionPerformed
+
+    private void Sony_Button_P_29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_29ActionPerformed
+
+    private void Sony_Button_P_30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_30ActionPerformed
+
+    private void VolverButtonSony7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony7ActionPerformed
+
+    private void Sony_Button_P_33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_33ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_33ActionPerformed
+
+    private void Sony_Button_P_34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_34ActionPerformed
+
+    private void VolverButtonSony8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony8ActionPerformed
+
+    private void Sony_Button_P_37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_37ActionPerformed
+
+    private void Sony_Button_P_38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sony_Button_P_38ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sony_Button_P_38ActionPerformed
+
+    private void VolverButtonSony9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonSony9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonSony9ActionPerformed
+
+    private void VolverButtonMostrarCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonMostrarCDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonMostrarCDActionPerformed
+
+    private void VolverButtonTablasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VolverButtonTablasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_VolverButtonTablasActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void Sega_Button_P_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sega_Button_P_3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Sega_Button_P_3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2335,20 +2971,87 @@ public class NewJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton CDepButton;
-    private javax.swing.JButton CDepButton1;
+    private javax.swing.JButton AplicarButtonCargarCD;
+    private javax.swing.JButton AplicarButtonCargarPiloto;
+    private javax.swing.JButton AplicarButtonModificarCD;
+    private javax.swing.JButton AplicarModificaciónPiloto;
+    private javax.swing.JButton BuscarButtonEliminarCD;
+    private javax.swing.JButton BuscarButtonPiloto;
+    private javax.swing.JButton BuscarButtonPilotoEliminar;
+    private javax.swing.JButton BuscarCDModificarButton;
+    private javax.swing.JButton ButtonBandai;
+    private javax.swing.JButton ButtonCDEliminarElegir;
+    private javax.swing.JButton ButtonCD_1;
+    private javax.swing.JButton ButtonCD_2;
+    private javax.swing.JButton ButtonCD_3;
+    private javax.swing.JButton ButtonCD_4;
+    private javax.swing.JButton ButtonCD_5;
+    private javax.swing.JButton ButtonCD_6;
+    private javax.swing.JButton ButtonCapcom;
+    private javax.swing.JButton ButtonCartoon;
+    private javax.swing.JButton ButtonEliminarPiloto;
+    private javax.swing.JLabel ButtonEquipos;
+    private javax.swing.JButton ButtonIndie;
+    private javax.swing.JButton ButtonInfoCD;
+    private javax.swing.JButton ButtonInfoEquipos;
+    private javax.swing.JButton ButtonInfoPilotos;
+    private javax.swing.JButton ButtonInfoTablas;
+    private javax.swing.JButton ButtonNintendo;
+    private javax.swing.JButton ButtonPilotoEliminarElegir;
+    private javax.swing.JButton ButtonRetro;
+    private javax.swing.JButton ButtonSega;
+    private javax.swing.JButton ButtonSony;
+    private javax.swing.JButton ButtonUbisoft;
+    private javax.swing.JButton ButtonVocaloid;
+    private javax.swing.JButton CDModificarButton;
     private javax.swing.JButton CargarButton;
+    private javax.swing.JCheckBox CheckCargarInternacionalFIA;
+    private javax.swing.JCheckBox CheckCargarLicenciaFIAPiloto;
+    private javax.swing.JCheckBox CheckModificarFIACD;
     private javax.swing.JButton ComisarioDeportivoCargarButton;
-    private javax.swing.JButton ComisarioDeportivoCargarButton1;
-    private javax.swing.JButton ComisarioDeportivoCargarButton2;
+    private javax.swing.JLabel DescripciónCargar;
+    private javax.swing.JLabel DescripciónEliminarCD;
+    private javax.swing.JLabel DescripciónEliminarPiloto;
+    private javax.swing.JLabel DescripciónInicio;
     private javax.swing.JButton EditButton;
     private javax.swing.JButton EliminarButton;
+    private javax.swing.JButton EliminarButtonCD;
     private javax.swing.JButton InfoButton;
+    private javax.swing.JLabel Información_a;
+    private javax.swing.JLabel Información_a3;
+    private javax.swing.JLabel Información_a4;
+    private javax.swing.JLabel Información_a5;
+    private javax.swing.JLabel Información_a6;
+    private javax.swing.JLabel Información_a7;
+    private javax.swing.JLabel Información_a8;
+    private javax.swing.JLabel Información_a9;
+    private javax.swing.JLabel Información_b;
+    private javax.swing.JLabel Información_c;
     private javax.swing.JButton InitButton;
+    private javax.swing.JList<String> ListaCargarEquipoPìloto;
+    private javax.swing.JList<String> ListaCargarRolPiloto;
+    private javax.swing.JList<String> ListaModificarRolPiloto;
+    private javax.swing.JTable ListaSega;
+    private javax.swing.JTable ListaSony;
+    private javax.swing.JTable ListaSony1;
+    private javax.swing.JTable ListaSony3;
+    private javax.swing.JTable ListaSony4;
+    private javax.swing.JTable ListaSony5;
+    private javax.swing.JTable ListaSony6;
+    private javax.swing.JTable ListaSony7;
+    private javax.swing.JTable ListaSony8;
+    private javax.swing.JTable ListaSony9;
     private javax.swing.JButton ModificarButton;
+    private javax.swing.JButton Nintendo_Button_P_1;
+    private javax.swing.JButton Nintendo_Button_P_2;
+    private javax.swing.JButton Nintendo_Button_P_3;
+    private javax.swing.JButton Nintendo_Button_P_4;
+    private javax.swing.JPanel PanelBandai;
     private javax.swing.JPanel PanelBotonesEditar;
     private javax.swing.JPanel PanelBotonesInformación;
     private javax.swing.JPanel PanelBotonesPermanentes;
+    private javax.swing.JPanel PanelCapcom;
+    private javax.swing.JPanel PanelCartoon;
     private javax.swing.JPanel PanelComisarioDeportivoCargar;
     private javax.swing.JPanel PanelComisarioDeportivoModificar;
     private javax.swing.JPanel PanelContenedor;
@@ -2358,165 +3061,204 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel PanelElegirModificar;
     private javax.swing.JPanel PanelEliminarComisarioDeportivo;
     private javax.swing.JPanel PanelEliminarPiloto;
-    private javax.swing.JPanel PanelEquipos;
+    private javax.swing.JPanel PanelEquipoPuntos;
+    private javax.swing.JPanel PanelIndie;
     private javax.swing.JPanel PanelInfo;
     private javax.swing.JPanel PanelInicio;
+    private javax.swing.JPanel PanelMostrarComisariosDeportivos;
+    private javax.swing.JPanel PanelMostrarEquipos;
+    private javax.swing.JPanel PanelNintendo;
     private javax.swing.JPanel PanelPilotoCargar;
     private javax.swing.JPanel PanelPilotoModificar;
+    private javax.swing.JPanel PanelPilotos;
+    private javax.swing.JPanel PanelPilotosPodios;
+    private javax.swing.JPanel PanelRetro;
+    private javax.swing.JPanel PanelSega;
     private javax.swing.JPanel PanelSony;
+    private javax.swing.JPanel PanelTablasDePosición;
+    private javax.swing.JPanel PanelUbisoft;
+    private javax.swing.JPanel PanelVocaloid;
     private javax.swing.JButton PilotoCargarButton;
-    private javax.swing.JButton PilotoCargarButton1;
-    private javax.swing.JButton PilotoCargarButton2;
+    private javax.swing.JButton PilotoModificarButton;
     private javax.swing.JButton SalirButton;
-    private javax.swing.JButton TeamButton;
-    private javax.swing.JButton VolverButton;
-    private javax.swing.JButton VolverButton1;
-    private javax.swing.JButton VolverButton10;
-    private javax.swing.JButton VolverButton2;
-    private javax.swing.JButton VolverButton3;
-    private javax.swing.JButton VolverButton4;
-    private javax.swing.JButton VolverButton5;
-    private javax.swing.JButton VolverButton6;
-    private javax.swing.JButton VolverButton7;
-    private javax.swing.JButton VolverButton8;
-    private javax.swing.JButton VolverButton9;
+    private javax.swing.JScrollPane ScrollPanelCD;
+    private javax.swing.JScrollPane ScrollPanelEquipoPiloto;
+    private javax.swing.JScrollPane ScrollPanelRolB;
+    private javax.swing.JScrollPane ScrollPanelRolPiloto;
+    private javax.swing.JScrollPane ScrollPanelSega;
+    private javax.swing.JScrollPane ScrollPanelSony;
+    private javax.swing.JScrollPane ScrollPanelSony1;
+    private javax.swing.JScrollPane ScrollPanelSony3;
+    private javax.swing.JScrollPane ScrollPanelSony4;
+    private javax.swing.JScrollPane ScrollPanelSony5;
+    private javax.swing.JScrollPane ScrollPanelSony6;
+    private javax.swing.JScrollPane ScrollPanelSony7;
+    private javax.swing.JScrollPane ScrollPanelSony8;
+    private javax.swing.JScrollPane ScrollPanelSony9;
+    private javax.swing.JButton Sega_Button_P_1;
+    private javax.swing.JButton Sega_Button_P_2;
+    private javax.swing.JButton Sega_Button_P_3;
+    private javax.swing.JButton Sega_Button_P_4;
+    private javax.swing.JButton Sony_Button_P_1;
+    private javax.swing.JButton Sony_Button_P_13;
+    private javax.swing.JButton Sony_Button_P_14;
+    private javax.swing.JButton Sony_Button_P_15;
+    private javax.swing.JButton Sony_Button_P_16;
+    private javax.swing.JButton Sony_Button_P_17;
+    private javax.swing.JButton Sony_Button_P_18;
+    private javax.swing.JButton Sony_Button_P_19;
+    private javax.swing.JButton Sony_Button_P_2;
+    private javax.swing.JButton Sony_Button_P_20;
+    private javax.swing.JButton Sony_Button_P_21;
+    private javax.swing.JButton Sony_Button_P_22;
+    private javax.swing.JButton Sony_Button_P_23;
+    private javax.swing.JButton Sony_Button_P_24;
+    private javax.swing.JButton Sony_Button_P_25;
+    private javax.swing.JButton Sony_Button_P_26;
+    private javax.swing.JButton Sony_Button_P_27;
+    private javax.swing.JButton Sony_Button_P_28;
+    private javax.swing.JButton Sony_Button_P_29;
+    private javax.swing.JButton Sony_Button_P_3;
+    private javax.swing.JButton Sony_Button_P_30;
+    private javax.swing.JButton Sony_Button_P_31;
+    private javax.swing.JButton Sony_Button_P_32;
+    private javax.swing.JButton Sony_Button_P_33;
+    private javax.swing.JButton Sony_Button_P_34;
+    private javax.swing.JButton Sony_Button_P_35;
+    private javax.swing.JButton Sony_Button_P_36;
+    private javax.swing.JButton Sony_Button_P_37;
+    private javax.swing.JButton Sony_Button_P_38;
+    private javax.swing.JButton Sony_Button_P_39;
+    private javax.swing.JButton Sony_Button_P_4;
+    private javax.swing.JButton Sony_Button_P_40;
+    private javax.swing.JTable TablaMostrarCD;
+    private javax.swing.JLabel TextoAbandonos;
+    private javax.swing.JLabel TextoAbandonosB;
+    private javax.swing.JLabel TextoApellido;
+    private javax.swing.JLabel TextoApellidoB;
+    private javax.swing.JLabel TextoApellidoC;
+    private javax.swing.JTextField TextoApellidoCDBuscar;
+    private javax.swing.JLabel TextoApellidob;
+    private javax.swing.JLabel TextoApellidoc;
+    private javax.swing.JLabel TextoAño;
+    private javax.swing.JLabel TextoAñoCD;
+    private javax.swing.JTextField TextoBuscarApellidoPiloto;
+    private javax.swing.JTextField TextoBuscarNombrePiloto;
+    private javax.swing.JTextField TextoCargarAbandonosPiloto;
+    private javax.swing.JTextField TextoCargarApellidoCD;
+    private javax.swing.JTextField TextoCargarApellidoPiloto;
+    private javax.swing.JLabel TextoCargarApellidoTextoNombreCD;
+    private javax.swing.JTextField TextoCargarAñoCD;
+    private javax.swing.JTextField TextoCargarAñoPiloto;
+    private javax.swing.JTextField TextoCargarDiaCD;
+    private javax.swing.JTextField TextoCargarDiaPiloto;
+    private javax.swing.JTextField TextoCargarMesCD;
+    private javax.swing.JTextField TextoCargarMesPiloto;
+    private javax.swing.JTextField TextoCargarNacionalidadCD;
+    private javax.swing.JTextField TextoCargarNombreCD;
+    private javax.swing.JTextField TextoCargarNombrePiloto;
+    private javax.swing.JTextField TextoCargarNumeroAutoPiloto;
+    private javax.swing.JTextField TextoCargarPenalizacionesPiloto;
+    private javax.swing.JTextField TextoCargarPodiosPiloto;
+    private javax.swing.JTextField TextoCargarPolesPiloto;
+    private javax.swing.JTextField TextoCargarPuntosPiloto;
+    private javax.swing.JTextField TextoCargarSancionesCD;
+    private javax.swing.JTextField TextoCargarVueltasRapidasPiloto;
+    private javax.swing.JLabel TextoDescripcionModificarCD;
+    private javax.swing.JLabel TextoDescripcionModificarPiloto;
+    private javax.swing.JLabel TextoDia;
+    private javax.swing.JLabel TextoDiaCD;
+    private javax.swing.JTextField TextoEliminarApellidoCD;
+    private javax.swing.JTextField TextoEliminarApellidoPiloto;
+    private javax.swing.JTextField TextoEliminarNombreCD;
+    private javax.swing.JTextField TextoEliminarNombrePiloto;
+    private javax.swing.JLabel TextoEquipo;
+    private javax.swing.JLabel TextoFecha;
+    private javax.swing.JLabel TextoFechaCD;
+    private javax.swing.JLabel TextoInformaciónCD;
+    private javax.swing.JLabel TextoIntFIAb;
+    private javax.swing.JLabel TextoInternacionalFIACD;
+    private javax.swing.JLabel TextoLicenciaFIA;
+    private javax.swing.JLabel TextoMes;
+    private javax.swing.JLabel TextoMesCD;
+    private javax.swing.JTextField TextoModificarAbandonoPiloto;
+    private javax.swing.JLabel TextoModificarElegir;
+    private javax.swing.JTextField TextoModificarNumeroAutoPiloto;
+    private javax.swing.JTextField TextoModificarPenalizacionesPiloto;
+    private javax.swing.JTextField TextoModificarPodiosPiloto;
+    private javax.swing.JTextField TextoModificarPolesPiloto;
+    private javax.swing.JTextField TextoModificarPuntosPiloto;
+    private javax.swing.JTextField TextoModificarSancionesCD;
+    private javax.swing.JTextField TextoModificarVueltasPiloto;
+    private javax.swing.JLabel TextoNacionalidadCD;
+    private javax.swing.JLabel TextoNombre;
+    private javax.swing.JLabel TextoNombreB;
+    private javax.swing.JLabel TextoNombreC;
+    private javax.swing.JLabel TextoNombreCD;
+    private javax.swing.JTextField TextoNombreCDBuscar;
+    private javax.swing.JLabel TextoNombreb;
+    private javax.swing.JLabel TextoNombrec;
+    private javax.swing.JLabel TextoNumeroAuto;
+    private javax.swing.JLabel TextoNumeroAutoB;
+    private javax.swing.JLabel TextoPenalizaciones;
+    private javax.swing.JLabel TextoPenalizacionesB;
+    private javax.swing.JLabel TextoPodios;
+    private javax.swing.JLabel TextoPodiosB;
+    private javax.swing.JLabel TextoPoles;
+    private javax.swing.JLabel TextoPolesB;
+    private javax.swing.JLabel TextoPuntos;
+    private javax.swing.JLabel TextoPuntosB;
+    private javax.swing.JLabel TextoRol;
+    private javax.swing.JLabel TextoRolB;
+    private javax.swing.JLabel TextoSancionesCD;
+    private javax.swing.JLabel TextoSancionesb;
+    private javax.swing.JLabel TextoTituloCD;
+    private javax.swing.JLabel TextoTituloIngresarPiloto;
+    private javax.swing.JLabel TextoVueltasB;
+    private javax.swing.JLabel TextoVueltasRápidas;
+    private javax.swing.JLabel TituloCDMostrar;
+    private javax.swing.JLabel TituloEdicion;
+    private javax.swing.JLabel TituloEliminarCD;
+    private javax.swing.JLabel TituloEliminarElegir;
+    private javax.swing.JLabel TituloModCD;
+    private javax.swing.JLabel TituloPrograma;
+    private javax.swing.JLabel TítuloEliminarPiloto;
+    private javax.swing.JLabel TítuloInformación;
+    private javax.swing.JLabel TítuloModificarPiloto;
+    private javax.swing.JLabel TítuloNintendo;
+    private javax.swing.JLabel TítuloSega;
+    private javax.swing.JLabel TítuloSony;
+    private javax.swing.JLabel TítuloSony2;
+    private javax.swing.JLabel TítuloSony3;
+    private javax.swing.JLabel TítuloSony4;
+    private javax.swing.JLabel TítuloSony5;
+    private javax.swing.JLabel TítuloSony6;
+    private javax.swing.JLabel TítuloSony7;
+    private javax.swing.JLabel TítuloSony8;
+    private javax.swing.JLabel TítuloTablasPosición;
+    private javax.swing.JButton VolverButtonCDModificar;
+    private javax.swing.JButton VolverButtonCargarCD;
+    private javax.swing.JButton VolverButtonCargarPiloto;
+    private javax.swing.JButton VolverButtonElegirCargar;
+    private javax.swing.JButton VolverButtonElegirEliminar;
+    private javax.swing.JButton VolverButtonElegirModificar;
+    private javax.swing.JButton VolverButtonEliminarCD;
+    private javax.swing.JButton VolverButtonEliminarPiloto;
+    private javax.swing.JButton VolverButtonModificarPiloto;
+    private javax.swing.JButton VolverButtonMostrarCD;
+    private javax.swing.JButton VolverButtonMostrarEquipos;
+    private javax.swing.JButton VolverButtonNintendo;
+    private javax.swing.JButton VolverButtonSony;
+    private javax.swing.JButton VolverButtonSony2;
+    private javax.swing.JButton VolverButtonSony3;
+    private javax.swing.JButton VolverButtonSony4;
+    private javax.swing.JButton VolverButtonSony5;
+    private javax.swing.JButton VolverButtonSony6;
+    private javax.swing.JButton VolverButtonSony7;
+    private javax.swing.JButton VolverButtonSony8;
+    private javax.swing.JButton VolverButtonSony9;
+    private javax.swing.JButton VolverButtonTablas;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBox2;
-    private javax.swing.JCheckBox jCheckBox3;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
-    private javax.swing.JLabel jLabel42;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
-    private javax.swing.JLabel jLabel46;
-    private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
-    private javax.swing.JLabel jLabel49;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel50;
-    private javax.swing.JLabel jLabel51;
-    private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
-    private javax.swing.JLabel jLabel59;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel60;
-    private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
-    private javax.swing.JLabel jLabel63;
-    private javax.swing.JLabel jLabel64;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JList<String> jList2;
-    private javax.swing.JList<String> jList3;
-    private javax.swing.JList<String> jList4;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField12;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
-    private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField17;
-    private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField20;
-    private javax.swing.JTextField jTextField21;
-    private javax.swing.JTextField jTextField22;
-    private javax.swing.JTextField jTextField23;
-    private javax.swing.JTextField jTextField24;
-    private javax.swing.JTextField jTextField25;
-    private javax.swing.JTextField jTextField26;
-    private javax.swing.JTextField jTextField29;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField30;
-    private javax.swing.JTextField jTextField31;
-    private javax.swing.JTextField jTextField32;
-    private javax.swing.JTextField jTextField33;
-    private javax.swing.JTextField jTextField34;
-    private javax.swing.JTextField jTextField35;
-    private javax.swing.JTextField jTextField36;
-    private javax.swing.JTextField jTextField37;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
     // End of variables declaration//GEN-END:variables
 }
